@@ -1,7 +1,7 @@
 import React from "react";
 
-const CafePage = () => {
+const Cakebaku = () => {
   return <div>CafePage</div>;
 };
 
-export default CafePage;
+export default Cakebaku;
