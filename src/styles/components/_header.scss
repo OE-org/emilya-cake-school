@@ -19,6 +19,36 @@
     &-links {
       display: flex;
       gap: 3vw;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    &-link {
+      font-size: 15px;
+      border: 2px solid transparent;
+      .active {
+        border-bottom: 3px solid $main-gold;
+      }
+      a {
+        transition: all 0.3s linear;
+        padding-bottom: 8px;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          width: 0%;
+          height: 3px;
+          background-color: $main-gold;
+          left: 0;
+          bottom: -3px;
+          transition: all 0.3s linear;
+        }
+      }
+      &:hover a {
+        color: $main-gold;
+        &::after {
+          width: 100%;
+        }
+      }
     }
     &-btn {
       display: none;
@@ -30,6 +60,7 @@
     }
   }
 }
+
 @media (max-width: 992px) {
   .header {
     &__nav {

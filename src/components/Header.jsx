@@ -15,31 +15,31 @@ const Header = () => {
             <li className="header__nav-link">
               <NavLink
                 to="/"
-                className={(isActive) => (!isActive ? "active" : "")}
+                className={({ isActive }) => (isActive ? "active" : "")}
               >
                 home
               </NavLink>
             </li>
             <li className="header__nav-link">
               <NavLink
-                to="/"
-                className={(isActive) => (!isActive ? "active" : "")}
+                to="/cake-baku"
+                className={({ isActive }) => (isActive ? "active" : "")}
               >
                 cake baku
               </NavLink>
             </li>
             <li className="header__nav-link">
               <NavLink
-                to="/"
-                className={(isActive) => (!isActive ? "active" : "")}
+                to="/cake-school"
+                className={({ isActive }) => (isActive ? "active" : "")}
               >
                 cake school
               </NavLink>
             </li>
             <li className="header__nav-link">
               <NavLink
-                to="/"
-                className={(isActive) => (!isActive ? "active" : "")}
+                to="/catering"
+                className={({ isActive }) => (isActive ? "active" : "")}
               >
                 catering baku
               </NavLink>
