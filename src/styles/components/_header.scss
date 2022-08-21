@@ -63,6 +63,9 @@
 
 @media (max-width: 992px) {
   .header {
+    &__logo {
+      width: 40vw;
+    }
     &__nav {
       &-links {
         display: none;
@@ -70,6 +73,13 @@
       &-btn {
         display: block;
       }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .header {
+    &__logo {
+      width: 50vw;
     }
   }
 }
