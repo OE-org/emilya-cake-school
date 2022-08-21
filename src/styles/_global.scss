@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $main-font;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: $main-black;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: $main-black;
+}
