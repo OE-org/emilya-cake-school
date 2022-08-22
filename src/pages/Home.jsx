@@ -8,8 +8,8 @@ import catering from "../assets/images/services/catering-baku.png";
 
 const Home = () => {
   return (
-    <section className="home">
-      <div className="hero">
+    <main className="home">
+      <section className="hero">
         <div className="hero__wrapper">
           <div className="hero__img">
             <img src={hero} alt="emilya ismayilova" />
@@ -38,8 +38,8 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
   );
 };
 
