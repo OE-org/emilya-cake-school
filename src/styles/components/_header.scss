@@ -62,8 +62,8 @@
   }
 }
 .menu__nav {
-  position: absolute;
-  display: flex;
+  position: fixed;
+  display: none;
   justify-content: flex-end;
   top: -15px;
   right: -100%;
@@ -100,6 +100,7 @@
     transition: 0.4s;
   }
   .menu__nav {
+    display: flex;
     &-links {
       display: flex;
       width: 40%;
