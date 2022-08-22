@@ -130,4 +130,15 @@
       width: 50vw;
     }
   }
+  .menu__nav {
+    &-links {
+      width: 100%;
+      background-color: #fff;
+      padding-top: 15%;
+      padding-left: 80px;
+    }
+    .header__nav-link {
+      font-size: 22px;
+    }
+  }
 }
