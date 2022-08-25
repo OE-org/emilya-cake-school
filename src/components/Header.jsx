@@ -1,7 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
-import logo from "../assets/images/emilya-logo-3.png";
 import { useGlobalContext } from "../context/index";
 
 const Header = () => {
@@ -10,7 +9,7 @@ const Header = () => {
     <header className="header">
       <div className="header__wrapper">
         <div className="header__logo">
-          <img src={logo} alt="emilya ismayilova logo" />
+          <img src="/images/emilya-logo-3.png" alt="emilya ismayilova logo" />
         </div>
         <nav className="header__nav">
           <ul className="header__nav-links">

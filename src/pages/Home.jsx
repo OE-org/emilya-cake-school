@@ -1,10 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import hero from "../assets/images/hero-3.png";
-import cakeBaku from "../assets/images/services/cake-baku.png";
-import cakeSchool from "../assets/images/services/cake-school.png";
-import catering from "../assets/images/services/catering-baku.png";
+import About from "../components/About";
 
 const Home = () => {
   return (
@@ -12,26 +9,32 @@ const Home = () => {
       <section className="hero">
         <div className="hero__wrapper">
           <div className="hero__img">
-            <img src={hero} alt="emilya ismayilova" />
+            <img src="/images/hero-3.png" alt="emilya ismayilova" />
           </div>
           <div className="hero__content">
-            <h1>I'm Emilya Ismayilova</h1>
+            <h1 className="hero__content-title">Bizim xidmət sahələrimiz</h1>
             <div className="hero__content-cards">
               <Link to="/cake-baku" className="hero__card-wrapper">
                 <div className="hero__card">
-                  <img src={cakeBaku} alt="cake baku" />
+                  <img src="/images/services/cake-baku.png" alt="cake baku" />
                   <p>Cake Baku</p>
                 </div>
               </Link>
               <Link to="/cake-school" className="hero__card-wrapper">
                 <div className="hero__card">
-                  <img src={cakeSchool} alt="cake school" />
+                  <img
+                    src="/images/services/cake-school.png"
+                    alt="cake school"
+                  />
                   <p>Cake School</p>
                 </div>
               </Link>
               <Link to="/catering" className="hero__card-wrapper">
                 <div className="hero__card">
-                  <img src={catering} alt="catering baku" />
+                  <img
+                    src="public/images/services/catering-baku.png"
+                    alt="catering baku"
+                  />
                   <p>Catering Baku</p>
                 </div>
               </Link>
@@ -39,6 +42,10 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section className="about">
+        <About />
+      </section>
+      <div style={{ height: "500px" }}></div>
     </main>
   );
 };

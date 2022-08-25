@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: $main-black;
+  background: #ece9e6;
+  background: -webkit-linear-gradient(to right, #ffffff, #ece9e6);
+  background: linear-gradient(to right, #ffffff, #ece9e6);
 }
 
 code {
@@ -19,4 +22,12 @@ li {
 a {
   text-decoration: none;
   color: $main-black;
+}
+
+.container {
+  width: 90vw;
+  margin: 0 auto;
+}
+p {
+  // margin: 0;
 }
