@@ -14,11 +14,14 @@
     background-image: url("../../../public/images/about-bg.webp");
     background-repeat: no-repeat;
     background-size: cover;
+    &-bg {
+      background-color: rgba(255, 255, 255, 0.9);
+      height: 100%;
+    }
 
     &-wrapper {
-      background-color: rgba(255, 255, 255, 0.9);
-      padding: 20px;
-      height: 93.5%;
+      padding: 15px 35px 15px 15px;
+
       text-align: center;
     }
     &-title {
