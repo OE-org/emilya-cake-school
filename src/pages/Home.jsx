@@ -32,7 +32,7 @@ const Home = () => {
               <Link to="/catering" className="hero__card-wrapper">
                 <div className="hero__card">
                   <img
-                    src="public/images/services/catering-baku.png"
+                    src="/images/services/catering-baku.png"
                     alt="catering baku"
                   />
                   <p>Catering Baku</p>
