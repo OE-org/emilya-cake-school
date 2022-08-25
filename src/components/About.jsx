@@ -36,21 +36,22 @@ const About = () => {
               </h4>
               <p className="about__info-subdesc">
                 2012 ci ildən etibarən öz biznesini quraraq, 2012-2013 cü
-                illərdə hal hazırda da fəaliyyət göstərən Cake Baku Şirniyyat
-                evinin təsis etmişdir!
+                illərdə hal hazırda da fəaliyyət göstərən{" "}
+                <strong>Cake Baku </strong> Şirniyyat evinin təsis etmişdir!
               </p>
               <p className="about__info-subdesc">
                 Fəaliyyətə başladığı illərdən həmdə şirniyyat evinə kadrlar
                 hazırlayaraq öz şəxsi biznesini dahada genişləndirmişdir.
               </p>
               <p className="about__info-subdesc">
-                Tələbələrin və təlabatin çoxluğundan qərara gələrək hal hazırda
-                da fəaliyyət göstərən Cake School adlı kulinariya məktəbini
-                təsis etmişdir!
+                Tələbələrin və təlabatin çoxluğunu nəzərə alıb hal hazırda da
+                fəaliyyət göstərən <strong>Cake School</strong> adlı kulinariya
+                məktəbini təsis etmişdir!
               </p>
               <p className="about__info-subdesc">
-                Bununla yanaşı Catering Baku adlı keytring şirkətinin təsisçi
-                Direktoru Emilya İsmayilova ailəlidir və 2 övlad anasıdır !
+                Bununla yanaşı <strong>Catering Baku</strong> adlı keytring
+                şirkətinin təsisçi direktorudur. Emilya İsmayilova ailəlidir və
+                2 övlad anasıdır !
               </p>
             </div>
           </div>
