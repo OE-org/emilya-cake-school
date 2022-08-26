@@ -28,8 +28,8 @@ const About = () => {
               <p className="about__info-desc">
                 <strong>Təhsili:</strong> 2008 ci ildə Azərbaycan Dövlət İqtisad
                 Universitetinin Biznesin təşkili ve idarəedilmesi fakultəsinə
-                qəbul olmuş və 2012 ci ildə universiteti yüksək balla bitirərək
-                Diplom əldə etmişdir !
+                qəbul olmuş və 2012 ci ildə universiteti yüksək balla
+                bitirmişdir !
               </p>
               <h4 className="about__info-subtitle">
                 Həyatı və Biznesi haqqında

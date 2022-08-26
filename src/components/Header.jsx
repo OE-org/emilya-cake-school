@@ -13,7 +13,7 @@ const Header = () => {
     <header className={headerClasses}>
       <div className="header__wrapper">
         <div className="header__logo">
-          <img src="/images/emilya-logo-4.png" alt="emilya ismayilova logo" />
+          <img src="/images/emilya-logo-5.png" alt="emilya ismayilova logo" />
         </div>
         <nav className="header__nav">
           <ul className="header__nav-links">
