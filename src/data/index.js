@@ -70,3 +70,61 @@ export const aboutCarouselImgs = [
     alt: "Emilya ismayilova 14",
   },
 ];
+
+export const cakeBakuImgs = [
+  {
+    id: 1,
+    img: "/images/cake-baku/cake-1.jpg",
+    alt: "Cake Baku 1",
+  },
+  {
+    id: 2,
+    img: "/images/cake-baku/cake-2.jpg",
+    alt: "Cake Baku 2",
+  },
+  {
+    id: 3,
+    img: "/images/cake-baku/cake-3.jpg",
+    alt: "Cake Baku 3",
+  },
+  {
+    id: 4,
+    img: "/images/cake-baku/cake-4.jpg",
+    alt: "Cake Baku 4",
+  },
+  {
+    id: 5,
+    img: "/images/cake-baku/cake-5.jpg",
+    alt: "Cake Baku 5",
+  },
+  {
+    id: 7,
+    img: "/images/cake-baku/cake-7.jpg",
+    alt: "Cake Baku 7",
+  },
+  {
+    id: 8,
+    img: "/images/cake-baku/cake-8.jpg",
+    alt: "Cake Baku 8",
+  },
+  {
+    id: 9,
+    img: "/images/cake-baku/cake-9.jpg",
+    alt: "Cake Baku 9",
+  },
+  {
+    id: 10,
+    img: "/images/cake-baku/cake-10.jpg",
+    alt: "Cake Baku 10",
+  },
+  {
+    id: 11,
+    img: "/images/cake-baku/cake-11.jpg",
+    alt: "Cake Baku 11",
+  },
+  {
+    id: 12,
+    img: "/images/cake-baku/cake-12.jpg",
+    alt: "Cake Baku 12",
+  },
+];

@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import About from "../components/About";
+import CakeBakuSection from "../components/CakeBakuSection";
 
 const Home = () => {
   return (
@@ -53,6 +54,9 @@ const Home = () => {
       </section>
       <section className="about">
         <About />
+      </section>
+      <section className="cakebaku">
+        <CakeBakuSection />
       </section>
       <div style={{ height: "500px" }}></div>
     </main>
