@@ -1,8 +1,5 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
 
-import { cakeBakuImgs } from "../data";
 import { Link } from "react-router-dom";
 
 const CakeBakuSection = () => {
