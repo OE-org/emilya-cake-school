@@ -1,6 +1,6 @@
 import React from "react";
-
 import { Link } from "react-router-dom";
+import { FastCounter } from "react-smooth-counter";
 
 const CakeBakuSection = () => {
   return (
@@ -36,6 +36,25 @@ const CakeBakuSection = () => {
               verirki müştəri istəyini dərhal anlayaraq sizə xəyal etdiyiniz
               detalları tortunuza və şirniyyatınıza əks etdirək.
             </p>
+            <div className="cake-baku__stats">
+              {/* <span className="cake-baku__stats-icon"></span> */}
+              <span className="cake-baku__stats-num">
+                <i class="fa-solid fa-plus"></i>
+                <FastCounter
+                  delay={500}
+                  startNumber={0}
+                  to={500}
+                  // style={{
+                  //   color: "grey",
+                  //   fontSize: 50,
+                  //   fontWeight: "bold",
+                  //   width: "100%",
+                  // }}
+                  className={"randomClass"}
+                />
+              </span>
+              <span className="cake-baku__stats-desc">Müştəri sayısı</span>
+            </div>
             <button className="cake-baku__info-btn">
               <Link to="/cake-baku">Ətraflı</Link>
             </button>
