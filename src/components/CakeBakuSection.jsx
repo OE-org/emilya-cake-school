@@ -4,13 +4,13 @@ import { FastCounter } from "react-smooth-counter";
 
 const CakeBakuSection = () => {
   return (
-    <div className="cake-baku">
+    <section className="cake-baku">
       <div className="container">
         <div className="cake-baku__wrapper">
           <div className="cake-baku__picture">
             <img
               className="cake-baku__img-pattern"
-              src="/corner-bg-2.svg"
+              src="/images/corner-bg-2.svg"
               alt=""
             />
             <img
@@ -27,7 +27,7 @@ const CakeBakuSection = () => {
           <div className="cake-baku__info">
             <h3 className="cake-baku__info-title">
               Cake Baku
-              <img src="/divider-line.svg" alt="" />
+              <img src="/images/divider-line.svg" alt="" />
             </h3>
             <p className="cake-baku__info-desc">
               Özəl günlərinizin tort və şirniyyatlarını bizə əmanət edin. Cake
@@ -44,12 +44,6 @@ const CakeBakuSection = () => {
                   delay={500}
                   startNumber={0}
                   to={500}
-                  // style={{
-                  //   color: "grey",
-                  //   fontSize: 50,
-                  //   fontWeight: "bold",
-                  //   width: "100%",
-                  // }}
                   className={"randomClass"}
                 />
               </span>
@@ -61,7 +55,7 @@ const CakeBakuSection = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

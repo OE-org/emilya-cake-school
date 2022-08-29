@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import About from "../components/About";
 import CakeBakuSection from "../components/CakeBakuSection";
+import CakeSchoolSection from "../components/CakeSchoolSection";
 
 const Home = () => {
   return (
@@ -55,9 +56,8 @@ const Home = () => {
       <section className="about">
         <About />
       </section>
-      <section className="cakebaku">
-        <CakeBakuSection />
-      </section>
+      <CakeBakuSection />
+      <CakeSchoolSection />
       <div style={{ height: "500px" }}></div>
     </main>
   );
