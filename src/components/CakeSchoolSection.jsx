@@ -46,12 +46,12 @@ const CakeSchoolSection = () => {
             />
             <img
               className="cake-school__img"
-              src="/images/cake-school/school-5.jpg"
+              src="/images/cake-school/school-12.jpg"
               alt="CAKE 3"
             />
             <img
               className="cake-school__img-alt"
-              src="/images/cake-school/school-1.jpg"
+              src="/images/cake-school/school-13.jpg"
               alt="CAKE 3"
             />
           </div>

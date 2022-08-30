@@ -69,6 +69,31 @@ export const aboutCarouselImgs = [
     img: "/images/about-me/image-14.jpg",
     alt: "Emilya ismayilova 14",
   },
+  {
+    id: 15,
+    img: "/images/about-me/image-15.png",
+    alt: "Emilya ismayilova 15",
+  },
+  {
+    id: 19,
+    img: "/images/about-me/image-20.jpg",
+    alt: "Emilya ismayilova 19",
+  },
+  {
+    id: 20,
+    img: "/images/about-me/image-22.jpg",
+    alt: "Emilya ismayilova 20",
+  },
+  {
+    id: 21,
+    img: "/images/about-me/image-24.jpg",
+    alt: "Emilya ismayilova 21",
+  },
+  {
+    id: 22,
+    img: "/images/about-me/image-25.jpg",
+    alt: "Emilya ismayilova 22",
+  },
 ];
 
 export const cakeBakuImgs = [
