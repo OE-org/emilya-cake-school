@@ -16,7 +16,7 @@ const Home = () => {
             <div className="hero__inner">
               <div className="hero__img">
                 <img
-                  src="/images/about-me/footer-2.png"
+                  src="/images/about-me/footer-3.png"
                   alt="emilya ismayilova"
                 />
               </div>
