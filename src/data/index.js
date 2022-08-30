@@ -161,7 +161,7 @@ export const companiesImg = [
   },
   {
     id: 2,
-    img: "/images/companies/besting-2.jpg",
+    img: "/images/companies/besting_logo.svg",
     alt: "company 2",
   },
   {
