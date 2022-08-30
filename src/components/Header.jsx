@@ -22,7 +22,7 @@ const Header = () => {
                 to="/"
                 className={({ isActive }) => (isActive ? "active" : "")}
               >
-                home
+                Ana səhifə
               </NavLink>
             </li>
             <li className="header__nav-link">
@@ -78,7 +78,7 @@ const Header = () => {
               to="/"
               className={({ isActive }) => (isActive ? "active" : "")}
             >
-              home
+              Ana səhifə
             </NavLink>
           </li>
           <li className="header__nav-link">
