@@ -5,6 +5,7 @@ import About from "../components/About";
 import CakeBakuSection from "../components/CakeBakuSection";
 import CakeSchoolSection from "../components/CakeSchoolSection";
 import CateringSection from "../components/CateringSection";
+import CompaniesSection from "../components/CompaniesSection";
 
 const Home = () => {
   return (
@@ -60,6 +61,7 @@ const Home = () => {
       <CakeBakuSection />
       <CakeSchoolSection />
       <CateringSection />
+      <CompaniesSection />
       <div style={{ height: "500px" }}></div>
     </main>
   );

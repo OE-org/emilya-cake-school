@@ -153,3 +153,25 @@ export const cakeBakuImgs = [
     alt: "Cake Baku 12",
   },
 ];
+export const companiesImg = [
+  {
+    id: 1,
+    img: "/images/companies/baran-pasta-2.jpeg",
+    alt: "company 1",
+  },
+  {
+    id: 2,
+    img: "/images/companies/besting-2.jpg",
+    alt: "company 2",
+  },
+  {
+    id: 3,
+    img: "/images/companies/lbc-2.png",
+    alt: "company 3",
+  },
+  {
+    id: 4,
+    img: "/images/companies/sweet-boss-2.jpg",
+    alt: "company 4",
+  },
+];

@@ -15,7 +15,7 @@ const CateringSection = () => {
             />
             <img
               className="catering__img"
-              src="/images/catering/catering-1.jpg"
+              src="/images/catering/catering-46.jpg"
               alt="catering 3"
             />
             <img
