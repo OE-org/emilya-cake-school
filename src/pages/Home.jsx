@@ -15,7 +15,10 @@ const Home = () => {
           <div className="container">
             <div className="hero__inner">
               <div className="hero__img">
-                <img src="/images/hero-3.png" alt="emilya ismayilova" />
+                <img
+                  src="/images/about-me/footer-2.png"
+                  alt="emilya ismayilova"
+                />
               </div>
               <div className="hero__content">
                 <h1 className="hero__content-title">
@@ -62,7 +65,6 @@ const Home = () => {
       <CakeSchoolSection />
       <CateringSection />
       <CompaniesSection />
-      <div style={{ height: "500px" }}></div>
     </main>
   );
 };
