@@ -28,11 +28,19 @@ const breakpoints = {
 const CompaniesSection = () => {
   return (
     <section className="companies">
+      <h2 className="companies__title">
+        ƏMƏKDAŞLIQ ETDİYİMİZ ŞİRKƏTLƏR
+        <img src="/images/divider-line-2.svg" alt="" />
+      </h2>
+
       <Swiper
         className="companies__carousel"
         slidesPerView={4}
         spaceBetween={0}
-        // centeredSlides={true}
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
         loop={true}
         autoplay={{
           delay: 1500,
