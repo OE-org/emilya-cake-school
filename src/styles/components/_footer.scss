@@ -2,6 +2,11 @@
   width: 100%;
   height: auto;
   background-color: #7f007f;
+  background-color: #122f83;
+  background-color: #fd79a8;
+  background-color: #bc5175;
+  background-color: #825929;
+  background-color: #3e3027;
   background-image: url(../../../public/images/pattern03.png);
   background-position: bottom center;
   background-repeat: repeat-x;
@@ -130,6 +135,26 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+}
+
+@media (max-width: 1200px) {
+  .footer {
+    &__social {
+      width: 25%;
+      &-links {
+        // flex-wrap: wrap;
+      }
     }
   }
 }
