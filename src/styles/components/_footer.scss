@@ -6,9 +6,10 @@
   background-position: bottom center;
   background-repeat: repeat-x;
   color: #fff;
+
   &__header {
     display: flex;
-
+    justify-content: space-between;
     position: relative;
     a {
       color: #fff;
@@ -36,12 +37,99 @@
       position: absolute;
       top: -45px;
       right: 25px;
-      z-index: 1000;
+      z-index: 1;
+    }
+  }
+  &__title {
+    text-align: center;
+    font-size: 28px;
+    font-family: $second-font;
+    margin-bottom: 12px;
+  }
+  &__address {
+    width: 30%;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    i {
+      color: $main-gold;
+    }
+    span,
+    a {
+      padding-left: 5px;
+    }
+    &-desc {
+    }
+  }
+  &__social {
+    width: 30%;
+    &-links {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding: 0;
+    }
+    &-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: 0.3s;
+      align-self: flex-start;
+      i {
+        border: 1px solid transparent;
+        border-radius: 50%;
+        transition: 0.3s;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      span {
+        visibility: hidden;
+        text-transform: capitalize;
+        margin-top: 15px;
+        background-color: $main-gold;
+        padding: 5px 15px;
+        transition: 0.3s;
+        transform: translateY(-15px);
+        border-radius: 8px;
+        position: relative;
+        &::after {
+          content: "";
+          position: absolute;
+          visibility: hidden;
+          width: 0;
+          height: 0;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-bottom: 10px solid $main-gold;
+          left: 40%;
+          top: -35%;
+          transition: 0.2s;
+        }
+      }
+      &:hover span {
+        visibility: visible;
+        transform: translateY(0px);
+      }
+      &:hover span::after {
+        visibility: visible;
+      }
+      &:hover i {
+        border: 1px solid $main-gold;
+        color: $main-gold;
+      }
     }
   }
   &__copy {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border-top: 1px solid $main-black;
+    background-color: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
   }
 }
