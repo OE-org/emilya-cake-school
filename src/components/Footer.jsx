@@ -1,4 +1,7 @@
 import React from "react";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { MdMapsHomeWork } from "react-icons/md";
+import { FaEnvelope, FaFacebookF, FaPhoneAlt, FaTiktok, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,19 +18,19 @@ const Footer = () => {
           <div className="footer__address">
             <h4 className="footer__title">Əlaqə</h4>
             <p className="footer__address-desc">
-              <i class="fa-solid fa-house-chimney"></i> :
+              <MdMapsHomeWork /> :
               <span>
                 Xətai Rayonu, Ukrayna dairəsi, Nəsrəddin Tusi 56/71 (Amal mtk.)
               </span>
             </p>
             <p className="footer__address-mail">
-              <i class="fa-solid fa-envelope"></i> :
+              <FaEnvelope/> :
               <a href="mailto: emilya.ismayilova.90@mail.ru">
                 emilya.ismayilova.90@mail.ru
               </a>
             </p>
             <p className="footer__address-tel">
-              <i class="fa-solid fa-phone"></i> :
+              <FaPhoneAlt /> :
               <a href="tel: +994 55 232 06 16">+994 55 232 06 16</a>
             </p>
           </div>
@@ -41,7 +44,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-instagram"></i>
+                  <AiOutlineInstagram />
                   <span>Instagram</span>
                 </a>
               </li>
@@ -52,7 +55,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-facebook-f"></i>
+                  <FaFacebookF />
                   <span>facebook</span>
                 </a>
               </li>
@@ -63,7 +66,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-tiktok"></i>
+                  <FaTiktok />
                   <span>tiktok</span>
                 </a>
               </li>
@@ -74,7 +77,7 @@ const Footer = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  <i class="fa-brands fa-youtube"></i>
+                  <FaYoutube />
                   <span>youtube</span>
                 </a>
               </li>

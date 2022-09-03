@@ -1,14 +1,14 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useGlobalContext } from "../context/index";
 import { useStickyHeader } from "../hooks";
 
 const Header = () => {
+  let navigate = useNavigate();
   const { menuToggle, setMenuToggle } = useGlobalContext();
   const sticky = useStickyHeader(50);
   const headerClasses = `header ${sticky ? "sticky" : ""} `;
-
   return (
     <header className={headerClasses}>
       <div className="header__wrapper">

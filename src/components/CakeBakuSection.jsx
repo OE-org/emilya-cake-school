@@ -39,7 +39,7 @@ const CakeBakuSection = () => {
             <div className="cake-baku__stats">
               {/* <span className="cake-baku__stats-icon"></span> */}
               <span className="cake-baku__stats-num">
-                <i class="fa-solid fa-plus"></i>
+                <i className="fa-solid fa-plus"></i>
                 <FastCounter
                   delay={500}
                   startNumber={0}
