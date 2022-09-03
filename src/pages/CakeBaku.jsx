@@ -51,7 +51,7 @@ const Cakebaku = () => {
                             translateX: isActive ? "0px" : "-100px",
                           }}
                           transition={{
-                            delay: 1,
+                            delay: 0.5,
                             x: { duration: 1 },
                             default: { ease: "linear" },
                           }}
@@ -66,7 +66,7 @@ const Cakebaku = () => {
                             translateX: isActive ? "0px" : "100px",
                           }}
                           transition={{
-                            delay: 1,
+                            delay: 0.5,
                             duration: 2,
                             default: { ease: "linear" },
                           }}
