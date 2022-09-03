@@ -23,10 +23,10 @@ const Cakebaku = () => {
         fadeEffect={{
           crossFade: true,
         }}
-        // autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         modules={[Autoplay, EffectFade]}
       >
         {cakeBakuImgs.map((item) => {
@@ -76,35 +76,11 @@ const Cakebaku = () => {
                       </div>
                     </div>
                   </div>
-                  {/* <motion.div
-                    initial={{ opacity: 0, scale: 0.5 }}
-                    animate={{
-                      opacity: isActive ? 1 : 0,
-                      scale: isActive ? 1 : 0.5,
-                    }}
-                  >
-                    This is animated Second Slide
-                  </motion.div> */}
                 </>
               )}
             </SwiperSlide>
           );
         })}
-        {/* <SwiperSlide>
-          {({ isActive }) => (
-            <>
-              <motion.div
-                initial={{ opacity: 0, scale: 0.5 }}
-                animate={{
-                  opacity: isActive ? 1 : 0,
-                  scale: isActive ? 1 : 0.5,
-                }}
-              >
-                This is animated Second Slide
-              </motion.div>
-            </>
-          )}
-        </SwiperSlide> */}
       </Swiper>
 
       <div style={{ height: "500px" }}></div>
