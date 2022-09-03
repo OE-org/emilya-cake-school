@@ -11,6 +11,15 @@ const Home = () => {
   return (
     <main className="home">
       <section className="hero">
+        <div className="hero__video-wrapper">
+          <video
+            className="hero__video"
+            src="/images/emilya.mp4"
+            autoPlay
+            muted
+            loop
+          ></video>
+        </div>
         <div className="hero__wrapper">
           <div className="container">
             <div className="hero__inner">
