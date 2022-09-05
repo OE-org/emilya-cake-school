@@ -90,13 +90,13 @@
     background-size: cover;
     margin-top: -20px;
     display: flex;
-    // align-items: center;
+    align-items: center;
     justify-content: center;
     &-wrapper {
       text-align: center;
       width: 50%;
       margin: 0 auto;
-      padding: 90px 0 0;
+      // padding: 90px 0 0;
     }
     &-title {
       font-size: 6rem;
