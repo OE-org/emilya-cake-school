@@ -1,16 +1,25 @@
-import React from "react";
+import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Autoplay, EffectFade } from "swiper";
 import { motion } from "framer-motion";
+import FsLightbox from "fslightbox-react";
+import { BsArrowsFullscreen } from "react-icons/bs";
 
 import "swiper/css";
 import "swiper/css/effect-fade";
 import "aos/dist/aos.css";
-import { cakeBakuImgs } from "../data";
+import { cakeBakuImgs, cakeGallery } from "../data";
 
 SwiperCore.use([EffectFade]);
 
 const Cakebaku = () => {
+  const [toggler, setToggler] = useState(false);
+  const [slide, setSlide] = useState(0);
+
+  const showSlide = (slide) => {
+    setToggler(!toggler);
+    setSlide(slide);
+  };
   return (
     <main className="cakebaku">
       <Swiper
@@ -95,8 +104,31 @@ const Cakebaku = () => {
           </p>
         </div>
       </section>
-
-      <div style={{ height: "500px" }}></div>
+      <section className="cakebaku__gallery">
+        <div className="container">
+          <div className="cakebaku__gallery-inner">
+            {cakeGallery.map((item) => {
+              return (
+                <div
+                  key={item.id}
+                  onClick={() => showSlide(item.id)}
+                  className="cakebaku__gallery-item"
+                >
+                  <img src={item.img} alt={item.alt} />
+                  <div className="cakebaku__gallery-overlay">
+                    <BsArrowsFullscreen />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <FsLightbox
+          toggler={toggler}
+          slide={slide}
+          sources={cakeGallery.map((item) => item.img)}
+        />
+      </section>
     </main>
   );
 };

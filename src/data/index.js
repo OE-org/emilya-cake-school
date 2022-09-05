@@ -128,6 +128,243 @@ export const cakeBakuImgs = [
     title_img: "/images/cake-baku/cake-54.jpg",
   },
 ];
+export const cakeGallery = [
+  {
+    id: 1,
+    img: "/images/cake-baku/cake-1.jpg",
+    alt: "Cake Baku 1",
+  },
+  {
+    id: 2,
+    img: "/images/cake-baku/cake-2.jpg",
+    alt: "Cake Baku 2",
+  },
+  {
+    id: 3,
+    img: "/images/cake-baku/cake-3.jpg",
+    alt: "Cake Baku 3",
+  },
+  {
+    id: 4,
+    img: "/images/cake-baku/cake-4.jpg",
+    alt: "Cake Baku 4",
+  },
+  {
+    id: 5,
+    img: "/images/cake-baku/cake-5.jpg",
+    alt: "Cake Baku 5",
+  },
+  {
+    id: 6,
+    img: "/images/cake-baku/cake-9.jpg",
+    alt: "Cake Baku 9",
+  },
+  {
+    id: 7,
+    img: "/images/cake-baku/cake-10.jpg",
+    alt: "Cake Baku 7",
+  },
+  {
+    id: 8,
+    img: "/images/cake-baku/cake-11.jpg",
+    alt: "Cake Baku 8",
+  },
+  {
+    id: 9,
+    img: "/images/cake-baku/cake-12.jpg",
+    alt: "Cake Baku 9",
+  },
+  {
+    id: 10,
+    img: "/images/cake-baku/cake-16.jpg",
+    alt: "Cake Baku 10",
+  },
+  {
+    id: 11,
+    img: "/images/cake-baku/cake-18.jpg",
+    alt: "Cake Baku 11",
+  },
+  {
+    id: 12,
+    img: "/images/cake-baku/cake-19.jpg",
+    alt: "Cake Baku 12",
+  },
+  {
+    id: 13,
+    img: "/images/cake-baku/cake-21.jpg",
+    alt: "Cake Baku 13",
+  },
+  {
+    id: 14,
+    img: "/images/cake-baku/cake-22.jpg",
+    alt: "Cake Baku 14",
+  },
+  {
+    id: 15,
+    img: "/images/cake-baku/cake-23.jpg",
+    alt: "Cake Baku 15",
+  },
+  {
+    id: 16,
+    img: "/images/cake-baku/cake-24.jpg",
+    alt: "Cake Baku 16",
+  },
+  {
+    id: 17,
+    img: "/images/cake-baku/cake-25.jpg",
+    alt: "Cake Baku 17",
+  },
+  {
+    id: 18,
+    img: "/images/cake-baku/cake-26.jpg",
+    alt: "Cake Baku 18",
+  },
+  {
+    id: 19,
+    img: "/images/cake-baku/cake-27.jpg",
+    alt: "Cake Baku 19",
+  },
+  {
+    id: 20,
+    img: "/images/cake-baku/cake-29.jpg",
+    alt: "Cake Baku 20",
+  },
+  {
+    id: 21,
+    img: "/images/cake-baku/cake-30.jpg",
+    alt: "Cake Baku 21",
+  },
+  {
+    id: 22,
+    img: "/images/cake-baku/cake-31.jpg",
+    alt: "Cake Baku 22",
+  },
+  {
+    id: 23,
+    img: "/images/cake-baku/cake-32.jpg",
+    alt: "Cake Baku 23",
+  },
+  {
+    id: 24,
+    img: "/images/cake-baku/cake-34.jpg",
+    alt: "Cake Baku 24",
+  },
+  {
+    id: 25,
+    img: "/images/cake-baku/cake-35.jpg",
+    alt: "Cake Baku 25",
+  },
+  {
+    id: 26,
+    img: "/images/cake-baku/cake-36.jpg",
+    alt: "Cake Baku 26",
+  },
+  {
+    id: 27,
+    img: "/images/cake-baku/cake-37.jpg",
+    alt: "Cake Baku 27",
+  },
+  {
+    id: 28,
+    img: "/images/cake-baku/cake-38.jpg",
+    alt: "Cake Baku 28",
+  },
+  {
+    id: 29,
+    img: "/images/cake-baku/cake-39.jpg",
+    alt: "Cake Baku 29",
+  },
+  {
+    id: 30,
+    img: "/images/cake-baku/cake-40.jpg",
+    alt: "Cake Baku 30",
+  },
+  {
+    id: 31,
+    img: "/images/cake-baku/cake-41.jpg",
+    alt: "Cake Baku 31",
+  },
+  {
+    id: 32,
+    img: "/images/cake-baku/cake-42.jpg",
+    alt: "Cake Baku 32",
+  },
+  {
+    id: 33,
+    img: "/images/cake-baku/cake-43.jpg",
+    alt: "Cake Baku 33",
+  },
+  {
+    id: 34,
+    img: "/images/cake-baku/cake-44.jpg",
+    alt: "Cake Baku 34",
+  },
+  {
+    id: 35,
+    img: "/images/cake-baku/cake-45.jpg",
+    alt: "Cake Baku 35",
+  },
+  {
+    id: 36,
+    img: "/images/cake-baku/cake-46.jpg",
+    alt: "Cake Baku 36",
+  },
+  {
+    id: 37,
+    img: "/images/cake-baku/cake-47.jpg",
+    alt: "Cake Baku 37",
+  },
+  {
+    id: 38,
+    img: "/images/cake-baku/cake-48.jpg",
+    alt: "Cake Baku 38",
+  },
+  {
+    id: 39,
+    img: "/images/cake-baku/cake-49.jpg",
+    alt: "Cake Baku 39",
+  },
+  {
+    id: 40,
+    img: "/images/cake-baku/cake-52.jpg",
+    alt: "Cake Baku 40",
+  },
+  {
+    id: 41,
+    img: "/images/cake-baku/cake-54.jpg",
+    alt: "Cake Baku 41",
+  },
+  {
+    id: 42,
+    img: "/images/cake-baku/cake-61.jpg",
+    alt: "Cake Baku 42",
+  },
+  {
+    id: 43,
+    img: "/images/cake-baku/cake-63.jpg",
+    alt: "Cake Baku 43",
+  },
+  {
+    id: 44,
+    img: "/images/cake-baku/cake-66.jpg",
+    alt: "Cake Baku 44",
+  },
+  {
+    id: 45,
+    img: "/images/cake-baku/cake-67.jpg",
+    alt: "Cake Baku 45",
+  },
+  {
+    id: 46,
+    img: "/images/cake-baku/cake-68.jpg",
+    alt: "Cake Baku 46",
+  },
+  {
+    id: 47,
+    img: "/images/cake-baku/cake-69.jpg",
+    alt: "Cake Baku 47",
+  },
+];
 export const companiesImg = [
   {
     id: 1,
@@ -158,5 +395,26 @@ export const companiesImg = [
     id: 6,
     img: "/images/companies/kobska.png",
     alt: "company 6",
+  },
+  {
+    id: 7,
+    img: "/images/companies/le-sorelle.png",
+    alt: "company 7",
+  },
+  {
+    id: 8,
+    img: "/images/companies/vekiller.jpg",
+    alt: "company 8",
+  },
+
+  {
+    id: 9,
+    img: "/images/companies/granddor.png",
+    alt: "company 9",
+  },
+  {
+    id: 10,
+    img: "/images/companies/atom.png",
+    alt: "company 10",
   },
 ];
