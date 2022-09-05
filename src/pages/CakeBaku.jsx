@@ -82,6 +82,18 @@ const Cakebaku = () => {
           );
         })}
       </Swiper>
+      <div className="cakebaku__info">
+        <div className="cakebaku__info-wrapper">
+          <h2 className="cakebaku__info-title">Cake Baku</h2>
+          <p className="cakebaku__info-desc">
+            Özəl günlərinizin tort və şirniyyatlarını bizə əmanət edin. Cake
+            Baku ən dadlı və keyfiyyətli ərzaqlardan hazırlananan tort və
+            şirniyyatları məhz sizin üçün hazırlayır. İllərin təcrübəsi imkan
+            verirki müştəri istəyini dərhal anlayaraq sizə xəyal etdiyiniz
+            detalları tortunuza və şirniyyatınıza əks etdirək.
+          </p>
+        </div>
+      </div>
 
       <div style={{ height: "500px" }}></div>
     </section>
