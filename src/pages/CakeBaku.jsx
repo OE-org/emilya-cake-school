@@ -12,7 +12,7 @@ SwiperCore.use([EffectFade]);
 
 const Cakebaku = () => {
   return (
-    <section className="cakebaku">
+    <main className="cakebaku">
       <Swiper
         className="cakebaku__carousel"
         spaceBetween={50}
@@ -82,7 +82,7 @@ const Cakebaku = () => {
           );
         })}
       </Swiper>
-      <div className="cakebaku__info">
+      <section className="cakebaku__info">
         <div className="cakebaku__info-wrapper">
           <h2 className="cakebaku__info-title">Cake Baku</h2>
           <p className="cakebaku__info-desc">
@@ -93,10 +93,10 @@ const Cakebaku = () => {
             detalları tortunuza və şirniyyatınıza əks etdirək.
           </p>
         </div>
-      </div>
+      </section>
 
       <div style={{ height: "500px" }}></div>
-    </section>
+    </main>
   );
 };
 
