@@ -18,6 +18,7 @@ const Cakebaku = () => {
         spaceBetween={50}
         slidesPerView={1}
         centeredSlides={true}
+        allowTouchMove={false}
         loop={true}
         effect={"fade"}
         fadeEffect={{
