@@ -1,4 +1,4 @@
-.cakebaku {
+.catering-page {
   // width: 100%;
   // height: 100vh;
   &__carousel {
@@ -85,7 +85,7 @@
   &__info {
     width: 100%;
     height: calc(100vh - 65px);
-    background-image: url(../../../public/images/cake-baku/cake-bg.jpg);
+    background-image: url(../../../public/images/catering/catering-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: -20px;
@@ -108,7 +108,7 @@
         position: absolute;
         width: 50%;
         height: 3px;
-        bottom: 0;
+        bottom: -10px;
         left: 25%;
         background-color: $main-gold;
       }
@@ -117,7 +117,7 @@
         position: absolute;
         width: 20px;
         height: 20px;
-        bottom: -8px;
+        bottom: -18px;
         left: 50%;
         background-color: $main-gold;
         transform: rotate(45deg);
