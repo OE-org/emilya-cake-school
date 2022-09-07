@@ -128,203 +128,6 @@ export const cakeBakuImgs = [
     title_img: "/images/cake-baku/cake-54.jpg",
   },
 ];
-export const cateringCarousel = [
-  {
-    id: 1,
-    img: "/images/catering/catering-13.jpg",
-    title: "Koorperativ keytrinq",
-    title_img: "/images/catering/catering-12.jpg",
-  },
-  {
-    id: 2,
-    img: "/images/catering/catering-42.jpg",
-    title: "Banket təşkili",
-    title_img: "/images/catering/catering-46.jpg",
-  },
-  {
-    id: 2,
-    img: "/images/catering/catering-38.jpg",
-    title: "Avadanlıqların icarəsi",
-    title_img: "/images/catering/catering-3.jpg",
-  },
-];
-export const cateringGallery = [
-  {
-    id: 1,
-    img: "/images/catering/catering-1.jpg",
-    alt: "Catering 1",
-  },
-  {
-    id: 2,
-    img: "/images/catering/catering-2.jpg",
-    alt: "Catering 2",
-  },
-  {
-    id: 3,
-    img: "/images/catering/catering-3.jpg",
-    alt: "Catering 3",
-  },
-  {
-    id: 4,
-    img: "/images/catering/catering-4.jpg",
-    alt: "Catering 4",
-  },
-  {
-    id: 5,
-    img: "/images/catering/catering-5.jpg",
-    alt: "Catering 5",
-  },
-  {
-    id: 6,
-    img: "/images/catering/catering-6.jpg",
-    alt: "Catering 6",
-  },
-  {
-    id: 7,
-    img: "/images/catering/catering-7.jpg",
-    alt: "Catering 7",
-  },
-  {
-    id: 8,
-    img: "/images/catering/catering-8.jpg",
-    alt: "Catering 8",
-  },
-  {
-    id: 9,
-    img: "/images/catering/catering-9.jpg",
-    alt: "Catering 9",
-  },
-  {
-    id: 10,
-    img: "/images/catering/catering-10.jpg",
-    alt: "Catering 10",
-  },
-  {
-    id: 11,
-    img: "/images/catering/catering-13.jpg",
-    alt: "Catering 11",
-  },
-  {
-    id: 12,
-    img: "/images/catering/catering-15.jpg",
-    alt: "Catering 12",
-  },
-  {
-    id: 13,
-    img: "/images/catering/catering-16.jpg",
-    alt: "Catering 13",
-  },
-  {
-    id: 14,
-    img: "/images/catering/catering-17.jpg",
-    alt: "Catering 14",
-  },
-  {
-    id: 15,
-    img: "/images/catering/catering-18.jpg",
-    alt: "Catering 15",
-  },
-  {
-    id: 16,
-    img: "/images/catering/catering-19.jpg",
-    alt: "Catering 16",
-  },
-  {
-    id: 17,
-    img: "/images/catering/catering-20.jpg",
-    alt: "Catering 17",
-  },
-  {
-    id: 18,
-    img: "/images/catering/catering-21.jpg",
-    alt: "Catering 18",
-  },
-  {
-    id: 19,
-    img: "/images/catering/catering-22.jpg",
-    alt: "Catering 19",
-  },
-  {
-    id: 20,
-    img: "/images/catering/catering-25.jpg",
-    alt: "Catering 20",
-  },
-  {
-    id: 21,
-    img: "/images/catering/catering-26.jpg",
-    alt: "Catering 21",
-  },
-  {
-    id: 22,
-    img: "/images/catering/catering-27.jpg",
-    alt: "Catering 22",
-  },
-  {
-    id: 23,
-    img: "/images/catering/catering-28.jpg",
-    alt: "Catering 23",
-  },
-  {
-    id: 24,
-    img: "/images/catering/catering-29.jpg",
-    alt: "Catering 24",
-  },
-  {
-    id: 25,
-    img: "/images/catering/catering-31.jpg",
-    alt: "Catering 25",
-  },
-  {
-    id: 26,
-    img: "/images/catering/catering-32.jpg",
-    alt: "Catering 26",
-  },
-  {
-    id: 27,
-    img: "/images/catering/catering-33.jpg",
-    alt: "Catering 27",
-  },
-  {
-    id: 28,
-    img: "/images/catering/catering-36.jpg",
-    alt: "Catering 28",
-  },
-  {
-    id: 29,
-    img: "/images/catering/catering-37.jpg",
-    alt: "Catering 29",
-  },
-  {
-    id: 30,
-    img: "/images/catering/catering-38.jpg",
-    alt: "Catering 30",
-  },
-  {
-    id: 31,
-    img: "/images/catering/catering-42.jpg",
-    alt: "Catering 31",
-  },
-  {
-    id: 32,
-    img: "/images/catering/catering-43.jpg",
-    alt: "Catering 32",
-  },
-  {
-    id: 33,
-    img: "/images/catering/catering-44.jpg",
-    alt: "Catering 33",
-  },
-  {
-    id: 34,
-    img: "/images/catering/catering-45.jpg",
-    alt: "Catering 34",
-  },
-  {
-    id: 35,
-    img: "/images/catering/catering-46.jpg",
-    alt: "Catering 35",
-  },
-];
 export const cakeGallery = [
   {
     id: 1,
@@ -562,6 +365,237 @@ export const cakeGallery = [
     alt: "Cake Baku 47",
   },
 ];
+export const cateringCarousel = [
+  {
+    id: 1,
+    img: "/images/catering/catering-13.jpg",
+    title: "Koorperativ keytrinq",
+    title_img: "/images/catering/catering-12.jpg",
+  },
+  {
+    id: 2,
+    img: "/images/catering/catering-42.jpg",
+    title: "Banket təşkili",
+    title_img: "/images/catering/catering-46.jpg",
+  },
+  {
+    id: 3,
+    img: "/images/catering/catering-38.jpg",
+    title: "Avadanlıqların icarəsi",
+    title_img: "/images/catering/catering-3.jpg",
+  },
+];
+
+export const cateringGallery = [
+  {
+    id: 1,
+    img: "/images/catering/catering-1.jpg",
+    alt: "Catering 1",
+  },
+  {
+    id: 2,
+    img: "/images/catering/catering-2.jpg",
+    alt: "Catering 2",
+  },
+  {
+    id: 3,
+    img: "/images/catering/catering-3.jpg",
+    alt: "Catering 3",
+  },
+  {
+    id: 4,
+    img: "/images/catering/catering-4.jpg",
+    alt: "Catering 4",
+  },
+  {
+    id: 5,
+    img: "/images/catering/catering-5.jpg",
+    alt: "Catering 5",
+  },
+  {
+    id: 6,
+    img: "/images/catering/catering-6.jpg",
+    alt: "Catering 6",
+  },
+  {
+    id: 7,
+    img: "/images/catering/catering-7.jpg",
+    alt: "Catering 7",
+  },
+  {
+    id: 8,
+    img: "/images/catering/catering-8.jpg",
+    alt: "Catering 8",
+  },
+  {
+    id: 9,
+    img: "/images/catering/catering-9.jpg",
+    alt: "Catering 9",
+  },
+  {
+    id: 10,
+    img: "/images/catering/catering-10.jpg",
+    alt: "Catering 10",
+  },
+  {
+    id: 11,
+    img: "/images/catering/catering-13.jpg",
+    alt: "Catering 11",
+  },
+  {
+    id: 12,
+    img: "/images/catering/catering-15.jpg",
+    alt: "Catering 12",
+  },
+  {
+    id: 13,
+    img: "/images/catering/catering-16.jpg",
+    alt: "Catering 13",
+  },
+  {
+    id: 14,
+    img: "/images/catering/catering-17.jpg",
+    alt: "Catering 14",
+  },
+  {
+    id: 15,
+    img: "/images/catering/catering-18.jpg",
+    alt: "Catering 15",
+  },
+  {
+    id: 16,
+    img: "/images/catering/catering-19.jpg",
+    alt: "Catering 16",
+  },
+  {
+    id: 17,
+    img: "/images/catering/catering-20.jpg",
+    alt: "Catering 17",
+  },
+  {
+    id: 18,
+    img: "/images/catering/catering-21.jpg",
+    alt: "Catering 18",
+  },
+  {
+    id: 19,
+    img: "/images/catering/catering-22.jpg",
+    alt: "Catering 19",
+  },
+  {
+    id: 20,
+    img: "/images/catering/catering-25.jpg",
+    alt: "Catering 20",
+  },
+  {
+    id: 21,
+    img: "/images/catering/catering-26.jpg",
+    alt: "Catering 21",
+  },
+  {
+    id: 22,
+    img: "/images/catering/catering-27.jpg",
+    alt: "Catering 22",
+  },
+  {
+    id: 23,
+    img: "/images/catering/catering-28.jpg",
+    alt: "Catering 23",
+  },
+  {
+    id: 24,
+    img: "/images/catering/catering-29.jpg",
+    alt: "Catering 24",
+  },
+  {
+    id: 25,
+    img: "/images/catering/catering-31.jpg",
+    alt: "Catering 25",
+  },
+  {
+    id: 26,
+    img: "/images/catering/catering-32.jpg",
+    alt: "Catering 26",
+  },
+  {
+    id: 27,
+    img: "/images/catering/catering-33.jpg",
+    alt: "Catering 27",
+  },
+  {
+    id: 28,
+    img: "/images/catering/catering-36.jpg",
+    alt: "Catering 28",
+  },
+  {
+    id: 29,
+    img: "/images/catering/catering-37.jpg",
+    alt: "Catering 29",
+  },
+  {
+    id: 30,
+    img: "/images/catering/catering-38.jpg",
+    alt: "Catering 30",
+  },
+  {
+    id: 31,
+    img: "/images/catering/catering-42.jpg",
+    alt: "Catering 31",
+  },
+  {
+    id: 32,
+    img: "/images/catering/catering-43.jpg",
+    alt: "Catering 32",
+  },
+  {
+    id: 33,
+    img: "/images/catering/catering-44.jpg",
+    alt: "Catering 33",
+  },
+  {
+    id: 34,
+    img: "/images/catering/catering-45.jpg",
+    alt: "Catering 34",
+  },
+  {
+    id: 35,
+    img: "/images/catering/catering-46.jpg",
+    alt: "Catering 35",
+  },
+];
+export const cakeschoolCarousel = [
+  {
+    id: 1,
+    img: "/images/cake-school/carousel/milli-4.jpg",
+    title: "Milli Şirniyyat Master Class",
+    title_img: "/images/cake-school/carousel/milli-1.jpg",
+  },
+  {
+    id: 2,
+    img: "/images/cake-school/carousel/sheker-2.jpg",
+    title: "Şəkər xəmiri Kursu",
+    title_img: "/images/cake-school/carousel/sheker-1.jpg",
+  },
+  {
+    id: 3,
+    img: "/images/cake-school/carousel/shokolad-2.jpg",
+    title: "Şokolad Master Class",
+    title_img: "/images/cake-school/carousel/shokolad-1.jpg",
+  },
+  {
+    id: 4,
+    img: "/images/cake-school/carousel/caramel-2.jpg",
+    title: "Caramel & Jele Master Class",
+    title_img: "/images/cake-school/carousel/caramel-1.jpg",
+  },
+  {
+    id: 7,
+    img: "/images/cake-school/carousel/qennad-1.jpg",
+    title: "Təməl qənnadçılıq Kursu",
+    title_img: "/images/cake-school/carousel/qennad-2.jpg",
+  },
+];
+
 export const companiesImg = [
   {
     id: 1,

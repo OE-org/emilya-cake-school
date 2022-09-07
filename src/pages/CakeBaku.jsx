@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SwiperCore, { Autoplay, EffectFade } from "swiper";
+import { Autoplay, EffectFade } from "swiper";
 import { motion } from "framer-motion";
 import FsLightbox from "fslightbox-react";
 import { BsArrowsFullscreen } from "react-icons/bs";
@@ -9,8 +9,6 @@ import "swiper/css";
 import "swiper/css/effect-fade";
 import "aos/dist/aos.css";
 import { cakeBakuImgs, cakeGallery } from "../data";
-
-SwiperCore.use([EffectFade]);
 
 const Cakebaku = () => {
   const [toggler, setToggler] = useState(false);

@@ -1,15 +1,17 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useGlobalContext } from "../context/index";
 import { useStickyHeader } from "../hooks";
 
 const Header = () => {
   const { menuToggle, setMenuToggle } = useGlobalContext();
+  const location = useLocation();
   const sticky = useStickyHeader(50);
   const headerClasses = `header ${sticky ? "sticky" : ""} `;
+  const bgWhite = location.pathname === "/cake-school" ? "bg-white" : "";
   return (
-    <header className={headerClasses}>
+    <header className={`${headerClasses} ${bgWhite}`}>
       <div className="header__wrapper">
         <div className="header__logo">
           <img src="/images/emilya-logo-5.png" alt="emilya ismayilova logo" />

@@ -2,7 +2,6 @@
   position: fixed;
   z-index: 9;
   width: 100%;
-
   padding: 15px 0;
   transition: 0.3s;
   &__wrapper {
@@ -78,6 +77,9 @@
   width: 100vw;
   height: 105vh;
   transition: 0.4s linear;
+}
+.header.bg-white {
+  background-color: #fff;
 }
 
 @media (max-width: 1024px) {
