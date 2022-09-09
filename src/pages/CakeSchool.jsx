@@ -9,7 +9,7 @@ import { FaMapMarkerAlt, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { GiForkKnifeSpoon } from "react-icons/gi";
 import FsLightbox from "fslightbox-react";
 import { BsArrowsFullscreen } from "react-icons/bs";
-import { masterclassCarousel, reviews, cateringGallery } from "../data";
+import { masterclassCarousel, reviews, cakeschoolGallery } from "../data";
 import { useGlobalContext } from "../context";
 
 const CakeSchool = () => {
@@ -211,7 +211,7 @@ const CakeSchool = () => {
       <section className="catering-page__gallery">
         <div className="container">
           <div className="catering-page__gallery-inner">
-            {cateringGallery.map((item) => {
+            {cakeschoolGallery.map((item) => {
               return (
                 <div
                   key={item.id}
@@ -230,7 +230,7 @@ const CakeSchool = () => {
         <FsLightbox
           toggler={toggler}
           slide={slide}
-          sources={cateringGallery.map((item) => item.img)}
+          sources={cakeschoolGallery.map((item) => item.img)}
         />
       </section>
     </main>

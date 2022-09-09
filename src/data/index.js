@@ -364,6 +364,31 @@ export const cakeGallery = [
     img: "/images/cake-baku/cake-69.jpg",
     alt: "Cake Baku 47",
   },
+  {
+    id: 48,
+    img: "/images/cake-baku/cake-70.jpg",
+    alt: "Cake Baku 48",
+  },
+  {
+    id: 49,
+    img: "/images/cake-baku/cake-73.jpg",
+    alt: "Cake Baku 49",
+  },
+  {
+    id: 50,
+    img: "/images/cake-baku/cake-76.jpg",
+    alt: "Cake Baku 50",
+  },
+  {
+    id: 51,
+    img: "/images/cake-baku/cake-74.jpg",
+    alt: "Cake Baku 51",
+  },
+  {
+    id: 52,
+    img: "/images/cake-baku/cake-75.jpg",
+    alt: "Cake Baku 52",
+  },
 ];
 export const cateringCarousel = [
   {
@@ -687,6 +712,243 @@ export const reviews = [
     img: "/images/cake-school/reviews/reviews-5.png",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
     author: "Jhon Doe",
+  },
+];
+export const cakeschoolGallery = [
+  {
+    id: 1,
+    img: "/images/cake-school/school-1.jpg",
+    alt: "Catering 1",
+  },
+  {
+    id: 2,
+    img: "/images/cake-school/school-2.jpg",
+    alt: "Catering 2",
+  },
+  {
+    id: 3,
+    img: "/images/cake-school/school-3.jpg",
+    alt: "Catering 3",
+  },
+  {
+    id: 4,
+    img: "/images/cake-school/school-4.jpg",
+    alt: "Catering 4",
+  },
+  {
+    id: 5,
+    img: "/images/cake-school/school-5.jpg",
+    alt: "Catering 5",
+  },
+  {
+    id: 6,
+    img: "/images/cake-school/school-6.jpg",
+    alt: "Catering 6",
+  },
+  {
+    id: 7,
+    img: "/images/cake-school/school-7.jpg",
+    alt: "Catering 7",
+  },
+  {
+    id: 8,
+    img: "/images/cake-school/school-8.jpg",
+    alt: "Catering 8",
+  },
+  {
+    id: 9,
+    img: "/images/cake-school/school-9.jpg",
+    alt: "Catering 9",
+  },
+  {
+    id: 10,
+    img: "/images/cake-school/school-10.jpg",
+    alt: "Catering 10",
+  },
+  {
+    id: 11,
+    img: "/images/cake-school/school-11.jpg",
+    alt: "Catering 11",
+  },
+  {
+    id: 12,
+    img: "/images/cake-school/school-12.jpg",
+    alt: "Catering 12",
+  },
+  {
+    id: 13,
+    img: "/images/cake-school/school-13.jpg",
+    alt: "Catering 13",
+  },
+  {
+    id: 14,
+    img: "/images/cake-school/school-14.jpg",
+    alt: "Catering 14",
+  },
+  {
+    id: 15,
+    img: "/images/cake-school/school-15.jpg",
+    alt: "Catering 15",
+  },
+  {
+    id: 16,
+    img: "/images/cake-school/school-16.jpg",
+    alt: "Catering 16",
+  },
+  {
+    id: 17,
+    img: "/images/cake-school/school-17.jpg",
+    alt: "Catering 17",
+  },
+  {
+    id: 18,
+    img: "/images/cake-school/school-18.jpg",
+    alt: "Catering 18",
+  },
+  {
+    id: 19,
+    img: "/images/cake-school/school-19.jpg",
+    alt: "Catering 19",
+  },
+  {
+    id: 20,
+    img: "/images/cake-school/school-20.jpg",
+    alt: "Catering 20",
+  },
+  {
+    id: 21,
+    img: "/images/cake-school/school-21.jpg",
+    alt: "Catering 21",
+  },
+  {
+    id: 22,
+    img: "/images/cake-school/school-22.jpg",
+    alt: "Catering 22",
+  },
+  {
+    id: 23,
+    img: "/images/cake-school/school-23.jpg",
+    alt: "Catering 23",
+  },
+  {
+    id: 24,
+    img: "/images/cake-school/school-24.jpg",
+    alt: "Catering 24",
+  },
+  {
+    id: 25,
+    img: "/images/cake-school/school-25.jpg",
+    alt: "Catering 25",
+  },
+  {
+    id: 26,
+    img: "/images/cake-school/school-26.jpg",
+    alt: "Catering 26",
+  },
+  {
+    id: 27,
+    img: "/images/cake-school/school-27.jpg",
+    alt: "Catering 27",
+  },
+  {
+    id: 28,
+    img: "/images/cake-school/school-28.jpg",
+    alt: "Catering 28",
+  },
+  {
+    id: 29,
+    img: "/images/cake-school/school-29.jpg",
+    alt: "Catering 29",
+  },
+  {
+    id: 30,
+    img: "/images/cake-school/school-30.jpg",
+    alt: "Catering 30",
+  },
+  {
+    id: 31,
+    img: "/images/cake-school/school-31.jpg",
+    alt: "Catering 31",
+  },
+  {
+    id: 32,
+    img: "/images/cake-school/school-32.jpg",
+    alt: "Catering 32",
+  },
+  {
+    id: 33,
+    img: "/images/cake-school/school-33.jpg",
+    alt: "Catering 33",
+  },
+  {
+    id: 34,
+    img: "/images/cake-school/school-34.jpg",
+    alt: "Catering 34",
+  },
+  {
+    id: 35,
+    img: "/images/cake-school/school-35.jpg",
+    alt: "Catering 35",
+  },
+  {
+    id: 36,
+    img: "/images/cake-school/school-36.jpg",
+    alt: "Catering 36",
+  },
+  {
+    id: 37,
+    img: "/images/cake-school/school-37.jpg",
+    alt: "Catering 37",
+  },
+  {
+    id: 38,
+    img: "/images/cake-school/school-38.jpg",
+    alt: "Catering 38",
+  },
+  {
+    id: 39,
+    img: "/images/cake-school/school-39.jpg",
+    alt: "Catering 39",
+  },
+  {
+    id: 40,
+    img: "/images/cake-school/school-40.jpg",
+    alt: "Catering 40",
+  },
+  {
+    id: 41,
+    img: "/images/cake-school/school-41.jpg",
+    alt: "Catering 41",
+  },
+  {
+    id: 42,
+    img: "/images/cake-school/school-42.jpg",
+    alt: "Catering 42",
+  },
+  {
+    id: 43,
+    img: "/images/cake-school/school-43.jpg",
+    alt: "Catering 43",
+  },
+  {
+    id: 45,
+    img: "/images/cake-school/school-45.jpg",
+    alt: "Catering 45",
+  },
+  {
+    id: 46,
+    img: "/images/cake-school/school-46.jpg",
+    alt: "Catering 46",
+  },
+  {
+    id: 47,
+    img: "/images/cake-school/school-47.jpg",
+    alt: "Catering 47",
+  },
+  {
+    id: 48,
+    img: "/images/cake-school/school-48.jpg",
+    alt: "Catering 48",
   },
 ];
 
