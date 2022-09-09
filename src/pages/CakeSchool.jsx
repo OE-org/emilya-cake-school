@@ -175,10 +175,10 @@ const CakeSchool = () => {
             spaceBetween={50}
             slidesPerView={1}
             loop={true}
-            // autoplay={{
-            //   delay: 3500,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
             modules={[Autoplay]}
           >
             {reviews.map((item) => {
