@@ -81,6 +81,9 @@ const CakeSchool = () => {
         </div>
       </section>
       <div className="cakeschool__masterclass container">
+        <div className="cakeschool__advantages-header">
+          <h3 className="cakeschool__advantages-title">Master Klasslar</h3>
+        </div>
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
@@ -163,35 +166,42 @@ const CakeSchool = () => {
           </div>
         </div>
       </section>
-      <div className="cakeschool__testimonials container">
-        <Swiper
-          spaceBetween={50}
-          slidesPerView={1}
-          loop={true}
-          // autoplay={{
-          //   delay: 3500,
-          //   disableOnInteraction: false,
-          // }}
-          modules={[Autoplay]}
-        >
-          {reviews.map((item) => {
-            return (
-              <SwiperSlide>
-                <div className="masterclass__course">
-                  <img
-                    className="masterclass__course-img"
-                    src={item.img}
-                    alt={item.author}
-                  />
-                  <div className="masterclass__course-info">
-                    <h4 className="masterclass__course-title">{item.author}</h4>
-                    <p className="cakeschool__course-desc">{item.desc}</p>
+      <div className="cakeschool__testimonials ">
+        <div className="cakeschool__testimonials-inner">
+          <h3 className="cakeschool__testimonials-title">
+            Tələbəlrimizin dedikləri
+          </h3>
+          <Swiper
+            spaceBetween={50}
+            slidesPerView={1}
+            loop={true}
+            // autoplay={{
+            //   delay: 3500,
+            //   disableOnInteraction: false,
+            // }}
+            modules={[Autoplay]}
+          >
+            {reviews.map((item) => {
+              return (
+                <SwiperSlide>
+                  <div className="testimonials__item">
+                    <img
+                      className="testimonials__item-img"
+                      src={item.img}
+                      alt={item.author}
+                    />
+                    <div className="testimonials__item-info">
+                      <p className="testimonials__item-desc">{item.desc}</p>
+                      <h4 className="testimonials__item-author">
+                        {item.author}
+                      </h4>
+                    </div>
                   </div>
-                </div>
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
+                </SwiperSlide>
+              );
+            })}
+          </Swiper>
+        </div>
       </div>
     </main>
   );

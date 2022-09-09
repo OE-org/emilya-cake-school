@@ -660,9 +660,27 @@ export const masterclassCarousel = [
 export const reviews = [
   {
     id: 1,
-    img: "/images/cake-school/masterclass/tarteletas.jpg",
-    desc: "Tarteletas & Desert",
-    autor: "Master Class",
+    img: "/images/cake-school/reviews/reviews-1.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
+    author: "Jhon Doe",
+  },
+  {
+    id: 2,
+    img: "/images/cake-school/reviews/reviews-2.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
+    author: "Jhon Doe",
+  },
+  {
+    id: 3,
+    img: "/images/cake-school/reviews/reviews-3.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
+    author: "Jhon Doe",
+  },
+  {
+    id: 4,
+    img: "/images/cake-school/reviews/reviews-4.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
+    author: "Jhon Doe",
   },
 ];
 

@@ -180,6 +180,75 @@
     }
   }
   &__testimonials {
-    background-image: url(../../../public/images/cake-school/masterclass/testimonials-bg.jpg);
+    background-image: url(https://dolcino.qodeinteractive.com/wp-content/uploads/2018/10/p2-title-img.jpg);
+    margin: 80px 0 150px;
+    padding: 20px 0;
+    &-inner {
+      width: 70vw;
+      margin: 30px auto;
+      background-color: rgba(193, 157, 86, 0.3);
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(5px);
+      border-radius: 15px;
+      // height: 80vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    &-title {
+      display: inline-block;
+      position: relative;
+      font-size: 42px;
+      font-family: $second-font;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        width: 20px;
+        height: 20px;
+        background-color: $main-gold;
+        transform: rotate(45deg);
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 10%;
+        width: 80%;
+        height: 2px;
+        background-color: $main-gold;
+      }
+    }
+    .testimonials__item {
+      display: flex;
+      width: 100%;
+
+      // justify-content: space-between;
+      align-items: center;
+      width: 80%;
+      margin: 0 auto 50px;
+      &-img {
+        width: 15vw;
+        height: 20vh;
+        margin-right: 20px;
+        object-fit: cover;
+        object-position: top;
+        border-radius: 20px;
+      }
+      &-info {
+        text-align: left;
+      }
+      &-author {
+        text-align: right;
+        margin: 0;
+        color: rgb(188, 127, 4);
+      }
+      &-desc {
+        font-style: italic;
+        font-size: 16px;
+        // padding-bottom: 10px;
+      }
+    }
   }
 }
