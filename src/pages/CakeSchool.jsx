@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper";
+import { Autoplay, Pagination } from "swiper";
 import { HiLibrary } from "react-icons/hi";
 import { MdSchool } from "react-icons/md";
 import { SiCakephp } from "react-icons/si";
@@ -179,11 +179,12 @@ const CakeSchool = () => {
             spaceBetween={50}
             slidesPerView={1}
             loop={true}
+            pagination={true}
             autoplay={{
               delay: 3500,
               disableOnInteraction: false,
             }}
-            modules={[Autoplay]}
+            modules={[Autoplay, Pagination]}
           >
             {reviews.map((item) => {
               return (
