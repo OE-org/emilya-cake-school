@@ -1,23 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper";
 import { motion } from "framer-motion";
 import FsLightbox from "fslightbox-react";
 import { BsArrowsFullscreen } from "react-icons/bs";
 
-import "swiper/css";
-import "swiper/css/effect-fade";
-import "aos/dist/aos.css";
+import { useGlobalContext } from "../context";
 import { cateringCarousel, cateringGallery } from "../data";
 
 const Catering = () => {
-  const [toggler, setToggler] = useState(false);
-  const [slide, setSlide] = useState(0);
-
-  const showSlide = (slide) => {
-    setToggler(!toggler);
-    setSlide(slide);
-  };
+  const { toggler, slide, showSlide } = useGlobalContext();
   return (
     <main className="catering-page">
       <Swiper

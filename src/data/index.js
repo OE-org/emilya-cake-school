@@ -682,6 +682,12 @@ export const reviews = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
     author: "Jhon Doe",
   },
+  {
+    id: 5,
+    img: "/images/cake-school/reviews/reviews-5.png",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
+    author: "Jhon Doe",
+  },
 ];
 
 export const companiesImg = [

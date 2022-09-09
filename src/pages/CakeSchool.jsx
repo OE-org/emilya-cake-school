@@ -7,9 +7,13 @@ import { SiCakephp } from "react-icons/si";
 import { TbCertificate } from "react-icons/tb";
 import { FaMapMarkerAlt, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { GiForkKnifeSpoon } from "react-icons/gi";
-import { masterclassCarousel, reviews } from "../data";
+import FsLightbox from "fslightbox-react";
+import { BsArrowsFullscreen } from "react-icons/bs";
+import { masterclassCarousel, reviews, cateringGallery } from "../data";
+import { useGlobalContext } from "../context";
 
 const CakeSchool = () => {
+  const { toggler, slide, showSlide } = useGlobalContext();
   return (
     <main className="cakeschool">
       <section className="cakeschool__hero">
@@ -166,10 +170,10 @@ const CakeSchool = () => {
           </div>
         </div>
       </section>
-      <div className="cakeschool__testimonials ">
+      <section className="cakeschool__testimonials ">
         <div className="cakeschool__testimonials-inner">
           <h3 className="cakeschool__testimonials-title">
-            Tələbəlrimizin dedikləri
+            Tələbəlrəimizin dedikləri
           </h3>
           <Swiper
             spaceBetween={50}
@@ -202,7 +206,32 @@ const CakeSchool = () => {
             })}
           </Swiper>
         </div>
-      </div>
+      </section>
+      <section className="catering-page__gallery">
+        <div className="container">
+          <div className="catering-page__gallery-inner">
+            {cateringGallery.map((item) => {
+              return (
+                <div
+                  key={item.id}
+                  onClick={() => showSlide(item.id)}
+                  className="catering-page__gallery-item"
+                >
+                  <img src={item.img} alt={item.alt} />
+                  <div className="catering-page__gallery-overlay">
+                    <BsArrowsFullscreen />
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+        <FsLightbox
+          toggler={toggler}
+          slide={slide}
+          sources={cateringGallery.map((item) => item.img)}
+        />
+      </section>
     </main>
   );
 };

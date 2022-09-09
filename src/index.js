@@ -5,6 +5,8 @@ import "swiper/css";
 import { AppProvider } from "./context";
 import App from "./App";
 import "./index.scss";
+import "swiper/css";
+import "swiper/css/effect-fade";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
