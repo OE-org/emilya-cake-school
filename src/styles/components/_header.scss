@@ -54,6 +54,18 @@
         }
       }
     }
+    &-icons {
+      display: flex;
+      gap: 10px;
+    }
+    &-icon {
+      font-size: 20px;
+      color: rgb(188, 127, 4);
+      transition: 0.4s;
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
     &-btn {
       display: none;
       font-size: 25px;

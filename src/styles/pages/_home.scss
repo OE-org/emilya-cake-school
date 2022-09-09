@@ -79,6 +79,12 @@
     }
   }
 }
+.map {
+  padding: 50px 0 150px;
+  iframe {
+    width: 100%;
+  }
+}
 
 @media (max-width: 992px) {
   .hero {
