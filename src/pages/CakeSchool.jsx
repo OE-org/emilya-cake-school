@@ -1,10 +1,13 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper";
 import { HiLibrary } from "react-icons/hi";
 import { MdSchool } from "react-icons/md";
 import { SiCakephp } from "react-icons/si";
 import { TbCertificate } from "react-icons/tb";
 import { FaMapMarkerAlt, FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 import { GiForkKnifeSpoon } from "react-icons/gi";
+import { masterclassCarousel, reviews } from "../data";
 
 const CakeSchool = () => {
   return (
@@ -77,6 +80,36 @@ const CakeSchool = () => {
           <FaQuoteRight className="cakeschool__courses-icon--right" />
         </div>
       </section>
+      <div className="cakeschool__masterclass container">
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={3}
+          loop={true}
+          autoplay={{
+            delay: 2500,
+            disableOnInteraction: false,
+          }}
+          modules={[Autoplay]}
+        >
+          {masterclassCarousel.map((item) => {
+            return (
+              <SwiperSlide>
+                <div className="masterclass__course">
+                  <img
+                    className="masterclass__course-img"
+                    src={item.img}
+                    alt={item.title}
+                  />
+                  <div className="masterclass__course-info">
+                    <h4 className="masterclass__course-title">{item.title}</h4>
+                    <p className="cakeschool__course-desc">{item.subtitle}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
       <section className="cakeschool__advantages">
         <div className="cakeschool__advantages-header">
           <h3 className="cakeschool__advantages-title">Üstünlüklərimiz</h3>
@@ -130,6 +163,36 @@ const CakeSchool = () => {
           </div>
         </div>
       </section>
+      <div className="cakeschool__testimonials container">
+        <Swiper
+          spaceBetween={50}
+          slidesPerView={1}
+          loop={true}
+          // autoplay={{
+          //   delay: 3500,
+          //   disableOnInteraction: false,
+          // }}
+          modules={[Autoplay]}
+        >
+          {reviews.map((item) => {
+            return (
+              <SwiperSlide>
+                <div className="masterclass__course">
+                  <img
+                    className="masterclass__course-img"
+                    src={item.img}
+                    alt={item.author}
+                  />
+                  <div className="masterclass__course-info">
+                    <h4 className="masterclass__course-title">{item.author}</h4>
+                    <p className="cakeschool__course-desc">{item.desc}</p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
     </main>
   );
 };

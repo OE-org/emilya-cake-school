@@ -595,6 +595,76 @@ export const cakeschoolCarousel = [
     title_img: "/images/cake-school/carousel/qennad-2.jpg",
   },
 ];
+export const masterclassCarousel = [
+  {
+    id: 1,
+    img: "/images/cake-school/masterclass/tarteletas.jpg",
+    title: "Tarteletas & Desert",
+    subtitle: "Master Class",
+  },
+  {
+    id: 2,
+    img: "/images/cake-school/masterclass/icecream.jpg",
+    title: "Ice Cream & Desert",
+    subtitle: "Master Class",
+  },
+  {
+    id: 3,
+    img: "/images/cake-school/masterclass/pastry.jpg",
+    title: "Choux Pastry & Cake",
+    subtitle: "Master Class",
+  },
+  {
+    id: 4,
+    img: "/images/cake-school/masterclass/caramel.jpg",
+    title: "Caramel & Jele",
+    subtitle: "Master Class",
+  },
+  {
+    id: 5,
+    img: "/images/cake-school/masterclass/chesecake.jpg",
+    title: "CheseCake & Tiramisu",
+    subtitle: "Master Class",
+  },
+  {
+    id: 6,
+    img: "/images/cake-school/masterclass/shokolad-1.jpg",
+    title: "Şokolad",
+    subtitle: "Master Class",
+  },
+  {
+    id: 7,
+    img: "/images/cake-school/masterclass/meyve-desert.jpg",
+    title: "Meyvə Desertləri",
+    subtitle: "Master Class",
+  },
+  {
+    id: 8,
+    img: "/images/cake-school/masterclass/muss-tort.jpg",
+    title: "Muss Tortlar",
+    subtitle: "Master Class",
+  },
+  {
+    id: 9,
+    img: "/images/cake-school/masterclass/biskivit.jpg",
+    title: "Biskivit",
+    subtitle: "Master Class",
+  },
+  {
+    id: 10,
+    img: "/images/cake-school/masterclass/krem.jpg",
+    title: "Krem",
+    subtitle: "Master Class",
+  },
+];
+export const reviews = [
+  {
+    id: 1,
+    img: "/images/cake-school/masterclass/tarteletas.jpg",
+    desc: "Tarteletas & Desert",
+    autor: "Master Class",
+  },
+];
 
 export const companiesImg = [
   {
