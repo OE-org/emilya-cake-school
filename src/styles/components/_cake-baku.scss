@@ -182,5 +182,27 @@
         right: -25px;
       }
     }
+    &__info {
+      &-title {
+        font-size: 28px;
+        margin-bottom: 0;
+        img {
+          margin-top: -20px;
+        }
+      }
+      &-desc {
+        font-size: 22px;
+      }
+    }
+  }
+}
+@media (max-width: 576px) {
+  .cake-baku {
+    &__img {
+      height: 35vh;
+      &-alt {
+        right: -10px;
+      }
+    }
   }
 }
