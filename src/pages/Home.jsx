@@ -71,9 +71,9 @@ const Home = () => {
         <About />
       </section>
       <CakeBakuSection />
-      {/* <CakeSchoolSection />
+      <CakeSchoolSection />
       <CateringSection />
-      <CompaniesSection /> */}
+      <CompaniesSection />
     </main>
   );
 };
