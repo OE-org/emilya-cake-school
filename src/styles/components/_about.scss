@@ -28,7 +28,7 @@
       font-size: 34px;
       margin-top: 0;
       margin-bottom: 10px;
-      text-align-last: right;
+      text-align: right;
       span {
         color: $main-gold;
         font-size: 44px;
@@ -67,6 +67,8 @@
   &__carousel {
     width: 40%;
     height: 100%;
+    border-radius: 0 100px;
+    overflow: hidden;
   }
 }
 
@@ -102,12 +104,34 @@
     }
     &__info {
       width: 100%;
+      &-title {
+        text-align: center;
+      }
     }
     &__carousel {
       width: 100%;
       height: 80%;
       &-img {
         height: 80vh;
+      }
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .about {
+    &__info {
+      &-title {
+        font-size: 24px;
+        span {
+          font-size: 38px;
+        }
+      }
+      &-desc {
+        font-size: 20px;
+      }
+      &-subdesc {
+        font-size: 20px;
       }
     }
   }

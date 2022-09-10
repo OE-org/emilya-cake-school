@@ -7,10 +7,12 @@ import SharedLayout from "./pages/SharedLayout";
 import CakeSchool from "./pages/CakeSchool";
 import Catering from "./pages/Catering";
 import Error from "./pages/Error";
+import ScrollToTop from "./helpers/ScropToTop";
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />

@@ -100,7 +100,7 @@ const CakeSchool = () => {
         >
           {masterclassCarousel.map((item) => {
             return (
-              <SwiperSlide>
+              <SwiperSlide key={item.id}>
                 <div className="masterclass__course">
                   <img
                     className="masterclass__course-img"
@@ -188,7 +188,7 @@ const CakeSchool = () => {
           >
             {reviews.map((item) => {
               return (
-                <SwiperSlide>
+                <SwiperSlide key={item.id}>
                   <div className="testimonials__item">
                     <img
                       className="testimonials__item-img"

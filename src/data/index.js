@@ -614,7 +614,7 @@ export const cakeschoolCarousel = [
     title_img: "/images/cake-school/carousel/caramel-1.jpg",
   },
   {
-    id: 7,
+    id: 5,
     img: "/images/cake-school/carousel/qennad-1.jpg",
     title: "Təməl qənnadçılıq Kursu",
     title_img: "/images/cake-school/carousel/qennad-2.jpg",
