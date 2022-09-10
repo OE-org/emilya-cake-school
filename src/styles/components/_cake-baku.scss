@@ -177,9 +177,9 @@
       width: 80%;
     }
     &__img {
-      height: 40vh;
+      height: 30vh;
       &-alt {
-        right: -25px;
+        right: -15px;
       }
     }
     &__info {
@@ -193,15 +193,8 @@
       &-desc {
         font-size: 22px;
       }
-    }
-  }
-}
-@media (max-width: 576px) {
-  .cake-baku {
-    &__img {
-      height: 35vh;
-      &-alt {
-        right: -10px;
+      &-btn {
+        width: 50vw;
       }
     }
   }

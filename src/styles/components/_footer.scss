@@ -223,6 +223,19 @@
     &__copy-wrapper {
       display: block;
       padding: 10px 0 1px;
+      text-align: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .footer {
+    &__social {
+      &-link {
+        svg {
+          font-size: 5vw;
+        }
+      }
     }
   }
 }

@@ -5,10 +5,10 @@
     flex-direction: column;
     align-items: center;
     font-family: $second-font;
-    font-size: 2.3vw;
+    font-size: 36px;
     img {
-      width: 30%;
-      margin-top: -6%;
+      width: 40%;
+      margin-top: -8%;
     }
   }
   &__carousel {
@@ -19,6 +19,35 @@
     }
     &-img {
       width: 150px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .companies {
+    &__title {
+      font-size: 28px;
+    }
+  }
+}
+@media (max-width: 567px) {
+  .companies {
+    &__title {
+      font-size: 20px;
+      img {
+        width: 50%;
+      }
+    }
+  }
+}
+
+@media (max-width: 360px) {
+  .companies {
+    &__title {
+      font-size: 18px;
+      text-align: center;
+      img {
+        width: 50%;
+      }
     }
   }
 }
