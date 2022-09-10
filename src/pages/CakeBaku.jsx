@@ -23,10 +23,10 @@ const Cakebaku = () => {
         fadeEffect={{
           crossFade: true,
         }}
-        // autoplay={{
-        //   delay: 3500,
-        //   disableOnInteraction: false,
-        // }}
+        autoplay={{
+          delay: 3500,
+          disableOnInteraction: false,
+        }}
         modules={[Autoplay, EffectFade]}
       >
         {cakeBakuImgs.map((item) => {

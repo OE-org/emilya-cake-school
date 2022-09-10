@@ -92,7 +92,6 @@
       text-align: center;
       width: 50%;
       margin: 0 auto;
-      // padding: 90px 0 0;
     }
     &-title {
       font-size: 6rem;
@@ -191,6 +190,10 @@
         }
       }
     }
+    &__info {
+      height: auto;
+      background-position: 60px 100px;
+    }
   }
 }
 
@@ -209,6 +212,7 @@
       }
     }
     &__info {
+      background-position: 20px 50px;
       &-wrapper {
         width: 80%;
       }
@@ -246,8 +250,7 @@
       }
     }
     &__info {
-      height: auto;
-      background-position: 20px 100px;
+      background-position: 20px 80px;
       &-wrapper {
         width: 90%;
       }
