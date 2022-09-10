@@ -20,6 +20,11 @@
       color: #fff;
     }
   }
+  &__right {
+    display: flex;
+    gap: 30px;
+    padding-left: 30px;
+  }
   &__picture {
     margin-top: -50px;
     background-color: $main-black;
@@ -68,8 +73,17 @@
     &-desc {
     }
   }
+  &__map {
+    width: 50%;
+    height: 78%;
+    padding: 40px 0;
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
   &__social {
-    width: 30%;
+    width: 50%;
     &-links {
       display: flex;
       width: 100%;
@@ -86,7 +100,7 @@
         border: 1px solid transparent;
         border-radius: 50%;
         transition: 0.3s;
-        font-size: 25px;
+        font-size: 2vw;
         padding: 10px;
         display: flex;
         align-items: center;
@@ -102,6 +116,7 @@
         transform: translateY(-15px);
         border-radius: 8px;
         position: relative;
+        font-size: 80%;
         &::after {
           content: "";
           position: absolute;
@@ -141,14 +156,11 @@
   }
 }
 
-@media (min-width: 576px) {
-}
+// @media (min-width: 576px) {
+// }
 
-@media (min-width: 768px) {
-}
-
-@media (min-width: 992px) {
-}
+// @media (min-width: 992px) {
+// }
 
 @media (max-width: 1200px) {
   .footer {
@@ -157,6 +169,60 @@
       &-links {
         // flex-wrap: wrap;
       }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .footer {
+    &__right {
+      flex-direction: column-reverse;
+    }
+    &__map {
+      width: 100%;
+      padding: 0;
+    }
+    &__social {
+      width: 100%;
+    }
+    &__title {
+      margin: 10px 0 0;
+    }
+    &__social {
+      &-links {
+        margin: 0;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .footer {
+    font-size: 14px;
+    &__header {
+      width: 100%;
+    }
+    &__picture {
+      display: none;
+    }
+    &__right {
+      width: 100%;
+      padding-left: 0;
+      // flex-direction: row;
+      // align-items: center;
+    }
+    &__social {
+      &-link {
+        span {
+          display: none;
+        }
+        svg {
+          font-size: 4vw;
+        }
+      }
+    }
+    &__copy-wrapper {
+      display: block;
+      padding: 10px 0 1px;
     }
   }
 }

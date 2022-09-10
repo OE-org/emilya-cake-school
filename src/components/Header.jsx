@@ -122,8 +122,23 @@ const Header = () => {
               catering baku
             </NavLink>
           </li>
-          <li className="header__nav-link">
-            <a href="#contact">contact</a>
+          <li className="header__nav-icons">
+            <a
+              className="header__nav-icon"
+              href="https://wa.me/994552320616"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsWhatsapp />
+            </a>
+            <a
+              className="header__nav-icon"
+              href="https://www.instagram.com/cakeschool/?igshid=YmMyMTA2M2Y%3D"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <BsInstagram />
+            </a>
           </li>
         </ul>
       </nav>

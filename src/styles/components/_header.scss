@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  z-index: 9;
+  z-index: 10;
   width: 100%;
   padding: 15px 0;
   transition: 0.3s;
@@ -97,7 +97,7 @@
 @media (max-width: 1024px) {
   .header {
     &__logo {
-      width: 22vw;
+      width: 12vw;
     }
     &__nav {
       &-links {
@@ -105,6 +105,9 @@
       }
       &-btn {
         display: block;
+      }
+      &-icons {
+        margin-top: 10px;
       }
     }
   }
