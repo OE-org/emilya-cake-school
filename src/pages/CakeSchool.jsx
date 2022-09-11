@@ -12,6 +12,21 @@ import { BsArrowsFullscreen } from "react-icons/bs";
 import { masterclassCarousel, reviews, cakeschoolGallery } from "../data";
 import { useGlobalContext } from "../context";
 
+const breakpoints = {
+  0: {
+    slidesPerView: 1,
+  },
+  576: {
+    slidesPerView: 1,
+  },
+  768: {
+    slidesPerView: 2,
+  },
+  1024: {
+    slidesPerView: 3,
+  },
+};
+
 const CakeSchool = () => {
   const { toggler, slide, showSlide } = useGlobalContext();
   return (
@@ -84,13 +99,15 @@ const CakeSchool = () => {
           <FaQuoteRight className="cakeschool__courses-icon--right" />
         </div>
       </section>
-      <div className="cakeschool__masterclass container">
+      <div className="cakeschool__masterclass">
         <div className="cakeschool__advantages-header">
           <h3 className="cakeschool__advantages-title">Master Klasslar</h3>
         </div>
         <Swiper
+          className="container"
           spaceBetween={50}
           slidesPerView={3}
+          breakpoints={breakpoints}
           loop={true}
           autoplay={{
             delay: 2500,
@@ -180,10 +197,10 @@ const CakeSchool = () => {
             slidesPerView={1}
             loop={true}
             pagination={true}
-            autoplay={{
-              delay: 3500,
-              disableOnInteraction: false,
-            }}
+            // autoplay={{
+            //   delay: 3500,
+            //   disableOnInteraction: false,
+            // }}
             modules={[Autoplay, Pagination]}
           >
             {reviews.map((item) => {
