@@ -9,6 +9,10 @@ import Catering from "./pages/Catering";
 import Error from "./pages/Error";
 import ScrollToTop from "./helpers/ScropToTop";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
+
 const App = () => {
   return (
     <BrowserRouter>

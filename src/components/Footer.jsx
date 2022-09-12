@@ -14,7 +14,11 @@ const Footer = () => {
     <footer className="footer">
       <div className="container">
         <div className="footer__header">
-          <div className="footer__picture">
+          <div
+            className="footer__picture"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
             <img
               className="footer__picture-img"
               src="/images/about-me/hero-3.png"
@@ -22,19 +26,25 @@ const Footer = () => {
             />
           </div>
           <div className="footer__right">
-            <div className="footer__map">
+            <div
+              className="footer__map"
+              data-aos="fade-down"
+              data-aos-duration="2500"
+            >
               <iframe
                 title="This is a unique title"
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2555.801216765636!2d49.9553048672103!3d40.37833655024583!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4030632f309fbe1b%3A0x9fd5312412a0e59a!2sAmal!5e0!3m2!1saz!2s!4v1662734476615!5m2!1saz!2s"
-                // width="600"
-                // height="450"
                 style={{ border: "0" }}
                 allowFullScreen=""
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>
             </div>
-            <div className="footer__social">
+            <div
+              className="footer__social"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
               <div>
                 <h4 className="footer__title">Əlaqə</h4>
                 <p className="footer__address-desc">

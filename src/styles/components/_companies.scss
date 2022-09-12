@@ -1,5 +1,6 @@
 .companies {
   margin: 80px 0 150px;
+  overflow-x: hidden;
   &__title {
     display: flex;
     flex-direction: column;

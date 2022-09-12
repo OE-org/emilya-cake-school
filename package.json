@@ -11,11 +11,12 @@
     "fslightbox-react": "^1.6.2-2",
     "react": "^18.2.0",
     "react-alice-carousel": "^2.6.4",
+    "react-countup": "^6.3.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "react-smooth-counter": "^2.0.0",
+    "react-waypoint": "^10.3.0",
     "sass": "^1.54.5",
     "swiper": "^8.3.2",
     "web-vitals": "^2.1.4"

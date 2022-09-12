@@ -1,13 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FastCounter } from "react-smooth-counter";
+import { Waypoint } from "react-waypoint";
+import CountUp from "react-countup";
 
 const CakeBakuSection = () => {
+  const [focus, setFocus] = useState(false);
   return (
     <section className="cake-baku">
       <div className="container">
         <div className="cake-baku__wrapper">
-          <div className="cake-baku__picture">
+          <div
+            id="alt-image"
+            className="cake-baku__picture"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <img
               className="cake-baku__img-pattern"
               src="/images/corner-bg-2.svg"
@@ -19,12 +26,20 @@ const CakeBakuSection = () => {
               alt="CAKE 3"
             />
             <img
+              data-aos="flip-right"
+              data-aos-duration="2000"
+              data-aos-anchor="#alt-image"
+              data-aos-offset="100"
               className="cake-baku__img-alt"
               src="/images/cake-baku/cake-2.jpg"
               alt="CAKE 3"
             />
           </div>
-          <div className="cake-baku__info">
+          <div
+            className="cake-baku__info"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <h3 className="cake-baku__info-title">
               Cake Baku
               <img src="/images/divider-line.svg" alt="" />
@@ -39,13 +54,19 @@ const CakeBakuSection = () => {
             <div className="cake-baku__stats">
               {/* <span className="cake-baku__stats-icon"></span> */}
               <span className="cake-baku__stats-num">
-                <i className="fa-solid fa-plus"></i>
-                <FastCounter
-                  delay={500}
-                  startNumber={0}
-                  to={500}
-                  className={"randomClass"}
-                />
+                <Waypoint onEnter={() => setFocus(true)}>
+                  <div>
+                    <i className="fa-solid fa-plus"></i>
+                    {focus && (
+                      <CountUp
+                        end={500}
+                        start={0}
+                        duration={2}
+                        className={"randomClass"}
+                      />
+                    )}
+                  </div>
+                </Waypoint>
               </span>
               <span className="cake-baku__stats-desc">Müştəri sayısı</span>
             </div>

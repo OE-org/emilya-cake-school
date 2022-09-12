@@ -10,7 +10,12 @@ const About = () => {
       <div className="about__wrapper">
         <div className="about__info">
           <div className="about__info-bg">
-            <div className="about__info-wrapper">
+            <div
+              className="about__info-wrapper"
+              data-aos="fade-right"
+              data-aos-duration="2000"
+              // data-aos-offset="0"
+            >
               <h2 className="about__info-title">
                 <span>Emilya Ismayova</span> kimdir?
               </h2>
@@ -56,7 +61,11 @@ const About = () => {
             </div>
           </div>
         </div>
-        <div className="about__carousel">
+        <div
+          className="about__carousel"
+          data-aos="fade-left"
+          data-aos-duration="2000"
+        >
           <Swiper
             spaceBetween={50}
             slidesPerView={1}

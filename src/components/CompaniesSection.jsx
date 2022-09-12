@@ -28,7 +28,11 @@ const breakpoints = {
 const CompaniesSection = () => {
   return (
     <section className="companies">
-      <h2 className="companies__title">
+      <h2
+        className="companies__title"
+        data-aos="zoom-out-up"
+        data-aos-duration="2000"
+      >
         ƏMƏKDAŞLIQ ETDİYİMİZ ŞİRKƏTLƏR
         <img src="/images/divider-line-2.svg" alt="" />
       </h2>
