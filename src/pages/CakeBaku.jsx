@@ -84,8 +84,18 @@ const Cakebaku = () => {
       </Swiper>
       <section className="cakebaku__info">
         <div className="cakebaku__info-wrapper">
-          <h2 className="cakebaku__info-title">Cake Baku</h2>
-          <p className="cakebaku__info-desc">
+          <h2
+            className="cakebaku__info-title"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            Cake Baku
+          </h2>
+          <p
+            className="cakebaku__info-desc"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             Özəl günlərinizin tort və şirniyyatlarını bizə əmanət edin. Cake
             Baku ən dadlı və keyfiyyətli ərzaqlardan hazırlananan tort və
             şirniyyatları məhz sizin üçün hazırlayır. İllərin təcrübəsi imkan
@@ -103,6 +113,8 @@ const Cakebaku = () => {
                   key={item.id}
                   onClick={() => showSlide(item.id)}
                   className="cakebaku__gallery-item"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 >
                   <img src={item.img} alt={item.alt} />
                   <div className="cakebaku__gallery-overlay">

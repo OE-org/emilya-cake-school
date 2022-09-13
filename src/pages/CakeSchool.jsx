@@ -32,11 +32,21 @@ const CakeSchool = () => {
   return (
     <main className="cakeschool">
       <section className="cakeschool__hero">
-        <h2 className="cakeschool__hero-title">Kurslarımız</h2>
+        <h2
+          className="cakeschool__hero-title"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          Kurslarımız
+        </h2>
       </section>
       <section className="cakeschool__courses container">
         <div className="cakeschool__courses-inner">
-          <div className="cakeschool__course">
+          <div
+            className="cakeschool__course"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <img
               className="cakeschool__course-img"
               src="/images/cake-school/school-42.jpg"
@@ -49,7 +59,11 @@ const CakeSchool = () => {
               </p>
             </div>
           </div>
-          <div className="cakeschool__course">
+          <div
+            className="cakeschool__course"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             <img
               className="cakeschool__course-img"
               src="/images/cake-school/caramel-2.jpg"
@@ -62,7 +76,11 @@ const CakeSchool = () => {
               </p>
             </div>
           </div>
-          <div className="cakeschool__course">
+          <div
+            className="cakeschool__course"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <img
               className="cakeschool__course-img"
               src="/images/cake-school/caramel-3.jpg"
@@ -76,7 +94,11 @@ const CakeSchool = () => {
             </div>
           </div>
         </div>
-        <div className="cakeschool__courses-info">
+        <div
+          className="cakeschool__courses-info"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
           <FaQuoteLeft className="cakeschool__courses-icon--left" />
           <p>
             Cake School Emilya İsmayilova tərəfindən təsis edilmiş Azərbaycanın
@@ -101,7 +123,13 @@ const CakeSchool = () => {
       </section>
       <div className="cakeschool__masterclass">
         <div className="cakeschool__advantages-header">
-          <h3 className="cakeschool__advantages-title">Master Klasslar</h3>
+          <h3
+            className="cakeschool__advantages-title"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
+            Master Klasslar
+          </h3>
         </div>
         <Swiper
           className="container"
@@ -118,7 +146,11 @@ const CakeSchool = () => {
           {masterclassCarousel.map((item) => {
             return (
               <SwiperSlide key={item.id}>
-                <div className="masterclass__course">
+                <div
+                  className="masterclass__course"
+                  data-aos="zoom-in"
+                  data-aos-duration="2000"
+                >
                   <img
                     className="masterclass__course-img"
                     src={item.img}
@@ -136,10 +168,20 @@ const CakeSchool = () => {
       </div>
       <section className="cakeschool__advantages">
         <div className="cakeschool__advantages-header">
-          <h3 className="cakeschool__advantages-title">Üstünlüklərimiz</h3>
+          <h3
+            className="cakeschool__advantages-title"
+            data-aos="fade-down"
+            data-aos-duration="2000"
+          >
+            Üstünlüklərimiz
+          </h3>
         </div>
         <div className="cakeschool__advantages-items container">
-          <div className="cakeschool__advantages-item">
+          <div
+            className="cakeschool__advantages-item"
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+          >
             <HiLibrary />
             <h4 className="advantages__item-title">Peşəkar Şərait</h4>
             <p className="advantages__item-desc">
@@ -147,7 +189,11 @@ const CakeSchool = () => {
               şərait yaradılmışdır.
             </p>
           </div>
-          <div className="cakeschool__advantages-item">
+          <div
+            className="cakeschool__advantages-item"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <MdSchool />
             <h4 className="advantages__item-title">Müəllimlər</h4>
             <p className="advantages__item-desc">
@@ -155,7 +201,11 @@ const CakeSchool = () => {
               Şeflər tərəfindən keçirilir.
             </p>
           </div>
-          <div className="cakeschool__advantages-item">
+          <div
+            className="cakeschool__advantages-item"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
             <SiCakephp />
             <h4 className="advantages__item-title">Praktiki təcrübə</h4>
             <p className="advantages__item-desc">
@@ -163,21 +213,33 @@ const CakeSchool = () => {
               və şirniyyatlarını hazirlayaraq real təcrübə qazanacaqlar.
             </p>
           </div>
-          <div className="cakeschool__advantages-item">
+          <div
+            className="cakeschool__advantages-item"
+            data-aos="zoom-in-right"
+            data-aos-duration="2000"
+          >
             <TbCertificate />
             <h4 className="advantages__item-title">Sertifikat</h4>
             <p className="advantages__item-desc">
               Kursun uğurla bitirmiş tələbələrə sertifikat təqdim olunur.
             </p>
           </div>
-          <div className="cakeschool__advantages-item">
+          <div
+            className="cakeschool__advantages-item"
+            data-aos="zoom-in"
+            data-aos-duration="2000"
+          >
             <FaMapMarkerAlt />
             <h4 className="advantages__item-title">Ünvan</h4>
             <p className="advantages__item-desc">
               Xətai Rayonu, Ukrayna dairəsi, Nəsrəddin Tusi 56/71 (Amal mtk).
             </p>
           </div>
-          <div className="cakeschool__advantages-item">
+          <div
+            className="cakeschool__advantages-item"
+            data-aos="zoom-in-left"
+            data-aos-duration="2000"
+          >
             <GiForkKnifeSpoon />
             <h4 className="advantages__item-title">Müasir avadanlıq</h4>
             <p className="advantages__item-desc">
@@ -187,8 +249,12 @@ const CakeSchool = () => {
           </div>
         </div>
       </section>
-      <section className="cakeschool__testimonials ">
-        <div className="cakeschool__testimonials-inner">
+      <section className="cakeschool__testimonials">
+        <div
+          className="cakeschool__testimonials-inner"
+          data-aos="flip-down"
+          data-aos-duration="2000"
+        >
           <h3 className="cakeschool__testimonials-title">
             Tələbəlrəimizin dedikləri
           </h3>
@@ -197,10 +263,10 @@ const CakeSchool = () => {
             slidesPerView={1}
             loop={true}
             pagination={true}
-            // autoplay={{
-            //   delay: 3500,
-            //   disableOnInteraction: false,
-            // }}
+            autoplay={{
+              delay: 3500,
+              disableOnInteraction: false,
+            }}
             modules={[Autoplay, Pagination]}
           >
             {reviews.map((item) => {
@@ -234,6 +300,8 @@ const CakeSchool = () => {
                   key={item.id}
                   onClick={() => showSlide(item.id)}
                   className="catering-page__gallery-item"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 >
                   <img src={item.img} alt={item.alt} />
                   <div className="catering-page__gallery-overlay">

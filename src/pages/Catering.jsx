@@ -84,8 +84,18 @@ const Catering = () => {
       </Swiper>
       <section className="catering-page__info">
         <div className="catering-page__info-wrapper">
-          <h2 className="catering-page__info-title">Catering Baku</h2>
-          <p className="catering-page__info-desc">
+          <h2
+            className="catering-page__info-title"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
+            Catering Baku
+          </h2>
+          <p
+            className="catering-page__info-desc"
+            data-aos="fade-up"
+            data-aos-duration="2000"
+          >
             Tədbirləriniz bizimlə daha da unudulmaz olacaq. Ləzzətli təamlar,
             gülərüz personal ilə hər zaman xidmətinizdəyik. Furşet təşkili, Kofe
             Breyl, Koorperativ keytrinq, banket təşkili, kokteyl xidməti və
@@ -102,6 +112,8 @@ const Catering = () => {
                   key={item.id}
                   onClick={() => showSlide(item.id)}
                   className="catering-page__gallery-item"
+                  data-aos="fade-up"
+                  data-aos-duration="2000"
                 >
                   <img src={item.img} alt={item.alt} />
                   <div className="catering-page__gallery-overlay">

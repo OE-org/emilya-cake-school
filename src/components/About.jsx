@@ -17,10 +17,10 @@ const About = () => {
               // data-aos-offset="0"
             >
               <h2 className="about__info-title">
-                <span>Emilya Ismayova</span> kimdir?
+                <span>Emilya Ismayılova</span> kimdir?
               </h2>
               <p className="about__info-desc">
-                <strong>Ad:</strong> Emilya Ismayilova
+                <strong>Ad:</strong> Emilya Ismayılova
               </p>
               <p className="about__info-desc">
                 <strong>Doğum ili:</strong> 1990 ci il 16 iyun Borçalı mahalının
