@@ -10,7 +10,7 @@ const Header = () => {
   const location = useLocation();
   const sticky = useStickyHeader(50);
   const headerClasses = `header ${sticky ? "sticky" : ""} `;
-  const bgWhite = location.pathname === "/cake-school" || "*" ? "bg-white" : "";
+  const bgWhite = location.pathname === "/cake-school" ? "bg-white" : "";
   return (
     <header className={`${headerClasses} ${bgWhite}`}>
       <div className="header__wrapper">
