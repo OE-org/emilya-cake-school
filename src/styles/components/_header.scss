@@ -20,7 +20,6 @@
     font-weight: 700;
     font-family: $second-font;
     font-size: 26px;
-    width: 50vw;
   }
   &__nav {
     &-links {
@@ -99,6 +98,9 @@
 
 @media (max-width: 1024px) {
   .header {
+    &__logo {
+      width: 50vw;
+    }
     &__nav {
       &-links {
         display: none;

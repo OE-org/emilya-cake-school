@@ -10,13 +10,11 @@ const Header = () => {
   const location = useLocation();
   const sticky = useStickyHeader(50);
   const headerClasses = `header ${sticky ? "sticky" : ""} `;
-  const bgWhite = location.pathname === "/cake-school" ? "bg-white" : "";
+  const bgWhite = location.pathname === "/cake-school" || "*" ? "bg-white" : "";
   return (
     <header className={`${headerClasses} ${bgWhite}`}>
       <div className="header__wrapper">
-        <div className="header__logo">
-         emilya ismayılova
-        </div>
+        <div className="header__logo">emilya ismayılova</div>
         <nav className="header__nav">
           <ul className="header__nav-links">
             <li className="header__nav-link">
