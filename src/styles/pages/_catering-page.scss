@@ -178,8 +178,14 @@
 @media (max-width: 1024px) {
   .catering-page {
     &__carousel {
+      &-info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
       &-title {
-        font-size: 68px;
+        font-size: 78px;
+        text-align: center;
       }
     }
     .carousel__info {
@@ -275,7 +281,7 @@
     .carousel__info {
       &-img {
         img {
-          height: 30vh;
+          height: 35vh;
         }
       }
     }
