@@ -33,23 +33,23 @@ const Footer = () => {
               ></iframe>
             </div>
             <div className="footer__social">
-              <div>
+              <div className="footer__address">
                 <h4 className="footer__title">Əlaqə</h4>
                 <p className="footer__address-desc">
-                  <MdMapsHomeWork /> :
+                  <MdMapsHomeWork />
                   <span>
                     Xətai Rayonu, Ukrayna dairəsi, Nəsrəddin Tusi 56/71 (Amal
                     mtk.)
                   </span>
                 </p>
                 <p className="footer__address-mail">
-                  <FaEnvelope /> :
+                  <FaEnvelope />
                   <a href="mailto: emilya.ismayilova.90@mail.ru">
                     emilya.ismayilova.90@mail.ru
                   </a>
                 </p>
                 <p className="footer__address-tel">
-                  <FaPhoneAlt /> :
+                  <FaPhoneAlt />
                   <a href="tel: +994 55 232 06 16">+994 55 232 06 16</a>
                 </p>
               </div>

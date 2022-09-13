@@ -14,7 +14,6 @@ const About = () => {
               className="about__info-wrapper"
               data-aos="fade-right"
               data-aos-duration="2000"
-              // data-aos-offset="0"
             >
               <h2 className="about__info-title">
                 <span>Emilya Ismayılova</span> kimdir?
@@ -28,7 +27,8 @@ const About = () => {
               </p>
               <p className="about__info-desc">
                 <strong>Orta təhsil:</strong> 1996-ci ildə Bakı şəhəri Xətai
-                rayonu 204 nömrəli orta məktəbdə oxumağa başlamışdır
+                rayonu 204 nömrəli orta məktəbdə oxumağa başlamışdır və 2008-ci
+                ildə bitirmişdir.
               </p>
               <p className="about__info-desc">
                 <strong>Təhsili:</strong> 2008 ci ildə Azərbaycan Dövlət İqtisad

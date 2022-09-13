@@ -59,7 +59,7 @@ const CakeBakuSection = () => {
                     <i className="fa-solid fa-plus"></i>
                     {focus && (
                       <CountUp
-                        end={500}
+                        end={1000}
                         start={0}
                         duration={2}
                         className={"randomClass"}

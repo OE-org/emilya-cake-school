@@ -14,10 +14,13 @@
     transition: all 0.9s linear;
   }
   &__logo {
-    width: 8vw;
-    img {
-      width: 100%;
-    }
+    text-transform: uppercase;
+    color: $main-gold;
+    letter-spacing: 1.8px;
+    font-weight: 700;
+    font-family: $second-font;
+    font-size: 26px;
+    width: 50vw;
   }
   &__nav {
     &-links {
@@ -96,9 +99,6 @@
 
 @media (max-width: 1024px) {
   .header {
-    &__logo {
-      width: 12vw;
-    }
     &__nav {
       &-links {
         display: none;
@@ -155,7 +155,8 @@
 @media (max-width: 576px) {
   .header {
     &__logo {
-      width: 20vw;
+      width: 60vw;
+      font-size: 18px;
     }
   }
   .menu__nav {

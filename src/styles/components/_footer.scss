@@ -57,7 +57,7 @@
     margin-bottom: 12px;
   }
   &__address {
-    width: 30%;
+    // width: 30%;
     font-size: 18px;
     line-height: 30px;
     letter-spacing: 1.5px;
@@ -68,7 +68,7 @@
     }
     span,
     a {
-      padding-left: 5px;
+      padding-left: 8px;
     }
   }
   &__map {
@@ -157,7 +157,7 @@
 @media (max-width: 1200px) {
   .footer {
     &__social {
-      width: 25%;
+      // width: 25%;
     }
   }
 }

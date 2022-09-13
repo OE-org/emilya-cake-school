@@ -67,7 +67,7 @@ const CateringSection = () => {
               <span className="catering__stats-desc">Tədbirlər</span>
             </div>
             <button className="catering__info-btn">
-              <Link to="/cake-baku">Ətraflı</Link>
+              <Link to="/catering">Ətraflı</Link>
             </button>
           </div>
         </div>
