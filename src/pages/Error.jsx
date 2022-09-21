@@ -6,11 +6,9 @@ const Error = () => {
     <div className="error">
       <h2 className="error__title">404</h2>
       <p className="error__info">Səhifə tapılmadı</p>
-      <div className="cake-baku__info-btn">
-        <Link className="error__back" to="/">
-          Ana səhifəyə get
-        </Link>
-      </div>
+      <button className="error__back">
+        <Link to="/">Ana səhifəyə get</Link>
+      </button>
     </div>
   );
 };
