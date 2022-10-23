@@ -21,6 +21,7 @@ const Header = () => {
               <NavLink
                 to="/"
                 className={({ isActive }) => (isActive ? "active" : "")}
+                end
               >
                 Ana səhifə
               </NavLink>
