@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { BsWhatsapp, BsInstagram } from "react-icons/bs";
 import { useGlobalContext } from "../context/index";
@@ -14,7 +14,9 @@ const Header = () => {
   return (
     <header className={`${headerClasses} ${bgWhite}`}>
       <div className="header__wrapper">
-        <div className="header__logo">emilya ismayılova</div>
+        <Link to="/" className="header__logo">
+          emilya ismayılova
+        </Link>
         <nav className="header__nav">
           <ul className="header__nav-links">
             <li className="header__nav-link">
