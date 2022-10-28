@@ -651,13 +651,13 @@ export const reviews = [
     id: 1,
     img: "/images/cake-school/reviews/reviews-1.png",
     desc: "Sizə ürək sözlərim çoxdu. Sizi nə qədər çox istədiyimi bilirsiz. Sizin Kursunuz sayəsində öz nişan tortumu hazırlamışam",
-    author: "Səbinə",
+    author: "Səadət Nəzərova",
   },
   {
     id: 2,
     img: "/images/cake-school/reviews/reviews-2.png",
     desc: "Emilya xanım, sizə necə təşəkkür etsəm bilmirəm. Əngəllı övladıma görə hardasa işləmək imkanım olmurdu. Verdiyiniz dərslər sayəsində evdə şirniyyatlar, tortlar bişirib satıram. Yaxşı ki, sizi tanıdım, yaxşı ki, yolum sizin akademiyadan keçdi. Sizi çox sevirəm.",
-    author: "Aynur",
+    author: "Raya Həsənova",
   },
   {
     id: 3,
