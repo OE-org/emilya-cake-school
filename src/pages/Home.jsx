@@ -1,25 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  CakeBakuSection,
+  CakeSchoolSection,
+  CateringSection,
+  CompaniesSection,
+} from "../components";
 
 import About from "../components/About";
-import CakeBakuSection from "../components/CakeBakuSection";
-import CakeSchoolSection from "../components/CakeSchoolSection";
-import CateringSection from "../components/CateringSection";
-import CompaniesSection from "../components/CompaniesSection";
 
 const Home = () => {
   return (
     <main className="home">
       <section className="hero">
-        {/* <div className="hero__video-wrapper">
-          <video
-            className="hero__video"
-            src="/images/emilya.mp4"
-            autoPlay
-            muted
-            loop
-          ></video>
-        </div> */}
         <div className="hero__wrapper">
           <div className="container">
             <div className="hero__inner">

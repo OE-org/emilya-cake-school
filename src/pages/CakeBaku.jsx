@@ -7,9 +7,9 @@ import { BsArrowsFullscreen } from "react-icons/bs";
 
 import { cakeBakuImgs, cakeGallery } from "../data";
 import { useGlobalContext } from "../context";
-import Loader from "../components/Loader";
+import { Loader } from "../components";
 
-const Cakebaku = () => {
+const CakeBaku = () => {
   const [loadPage, setLoadPage] = useState(false);
   const { toggler, slide, showSlide } = useGlobalContext();
 
@@ -17,7 +17,7 @@ const Cakebaku = () => {
     setLoadPage(true);
     setTimeout(() => {
       setLoadPage(false);
-    }, 1000);
+    }, 1300);
   }, []);
 
   return (
@@ -151,4 +151,4 @@ const Cakebaku = () => {
   );
 };
 
-export default Cakebaku;
+export default CakeBaku;

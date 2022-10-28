@@ -7,7 +7,7 @@ import { BsArrowsFullscreen } from "react-icons/bs";
 
 import { useGlobalContext } from "../context";
 import { cateringCarousel, cateringGallery } from "../data";
-import Loader from "../components/Loader";
+import { Loader } from "../components";
 
 const Catering = () => {
   const [loadPage, setLoadPage] = useState(false);
@@ -17,7 +17,7 @@ const Catering = () => {
     setLoadPage(true);
     setTimeout(() => {
       setLoadPage(false);
-    }, 1000);
+    }, 1300);
   }, []);
 
   return (
