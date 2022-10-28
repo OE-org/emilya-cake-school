@@ -45,7 +45,7 @@ const CakeBakuSection = () => {
               <img src="/images/divider-line.svg" alt="" />
             </h3>
             <p className="cake-baku__info-desc">
-              Özəl günlərinizin tort və şirniyyatlarını bizə əmanət edin. Cake
+              Özəl günlərinizin tort və şirniyyatlarını bizə həvalə edin. Cake
               Baku ən dadlı və keyfiyyətli ərzaqlardan hazırlananan tort və
               şirniyyatları məhz sizin üçün hazırlayır. İllərin təcrübəsi imkan
               verirki müştəri istəyini dərhal anlayaraq sizə xəyal etdiyiniz

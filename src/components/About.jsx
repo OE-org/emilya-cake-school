@@ -32,9 +32,8 @@ const About = () => {
               </p>
               <p className="about__info-desc">
                 <strong>Təhsili:</strong> 2008 ci ildə Azərbaycan Dövlət İqtisad
-                Universitetinin Biznesin təşkili ve idarəedilmesi fakultəsinə
-                qəbul olmuş və 2012 ci ildə universiteti yüksək balla
-                bitirmişdir !
+                Universitetinin Biznesin təşkili və idarəedilmesi fakultəsinə
+                qəbul olmuş, 2012 ci ildə universiteti yüksək balla bitirmişdir.
               </p>
               <h4 className="about__info-subtitle">
                 Həyatı və Biznesi haqqında
@@ -42,7 +41,7 @@ const About = () => {
               <p className="about__info-subdesc">
                 2012 ci ildən etibarən öz biznesini quraraq, 2012-2013 cü
                 illərdə hal hazırda da fəaliyyət göstərən{" "}
-                <strong>Cake Baku </strong> Şirniyyat evinin təsis etmişdir!
+                <strong>Cake Baku </strong> Şirniyyat evinin təsis etmişdir.
               </p>
               <p className="about__info-subdesc">
                 Fəaliyyətə başladığı illərdən həmdə şirniyyat evinə kadrlar
@@ -51,12 +50,12 @@ const About = () => {
               <p className="about__info-subdesc">
                 Tələbələrin və təlabatin çoxluğunu nəzərə alıb hal hazırda da
                 fəaliyyət göstərən <strong>Cake School</strong> adlı kulinariya
-                məktəbini təsis etmişdir!
+                məktəbini təsis etmişdir.
               </p>
               <p className="about__info-subdesc">
                 Bununla yanaşı <strong>Catering Baku</strong> adlı keytring
                 şirkətinin təsisçi direktorudur. Emilya İsmayilova ailəlidir və
-                2 övlad anasıdır !
+                2 övlad anasıdır.
               </p>
             </div>
           </div>
