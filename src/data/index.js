@@ -93,34 +93,34 @@ export const aboutCarouselImgs = [
 
 export const cakeBakuImgs = [
   {
-    id: 33,
-    img: "/images/cake-baku/cake-33.jpg",
+    id: 1,
+    img: "/images/cake-baku/slide/cake-33.webp",
     alt: "Cake Baku 33",
     title: "Klassik tortlar",
-    title_img: "/images/cake-baku/cake-3.jpg",
+    title_img: "/images/cake-baku/slide/cake-3.webp",
   },
 
   {
-    id: 43,
-    img: "/images/cake-baku/cake-43.jpg",
+    id: 2,
+    img: "/images/cake-baku/slide/cake-43.webp",
     alt: "Cake Baku 43",
     title: "Chocolate Art",
-    title_img: "/images/cake-baku/cake-24.jpg",
+    title_img: "/images/cake-baku/slide/cake-24.webp",
   },
 
   {
-    id: 59,
-    img: "/images/cake-baku/cake-59.jpg",
+    id: 3,
+    img: "/images/cake-baku/slide/cake-59.webp",
     alt: "Cake Baku 59",
     title: "Sifarişlə tortların hazirlanmasi",
-    title_img: "/images/cake-baku/cake-58.jpg",
+    title_img: "/images/cake-baku/slide/cake-58.webp",
   },
   {
-    id: 60,
-    img: "/images/cake-baku/cake-60.jpg",
+    id: 4,
+    img: "/images/cake-baku/slide/cake-60.webp",
     alt: "Cake Baku 60",
     title: "Bayram şirniyyatları",
-    title_img: "/images/cake-baku/cake-54.jpg",
+    title_img: "/images/cake-baku/slide/cake-54.webp",
   },
 ];
 export const cakeGallery = [
@@ -388,21 +388,21 @@ export const cakeGallery = [
 export const cateringCarousel = [
   {
     id: 1,
-    img: "/images/catering/catering-13.jpg",
+    img: "/images/catering/slide/catering-13.webp",
     title: "Koorperativ keytrinq",
-    title_img: "/images/catering/catering-12.jpg",
+    title_img: "/images/catering/slide/catering-12.webp",
   },
   {
     id: 2,
-    img: "/images/catering/catering-42.jpg",
+    img: "/images/catering/slide/catering-42.webp",
     title: "Banket təşkili",
-    title_img: "/images/catering/catering-46.jpg",
+    title_img: "/images/catering/slide/catering-46.webp",
   },
   {
     id: 3,
-    img: "/images/catering/catering-38.jpg",
+    img: "/images/catering/slide/catering-38.webp",
     title: "Avadanlıqların icarəsi",
-    title_img: "/images/catering/catering-3.jpg",
+    title_img: "/images/catering/slide/catering-3.webp",
   },
 ];
 
