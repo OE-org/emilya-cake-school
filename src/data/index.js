@@ -944,27 +944,22 @@ export const companiesImg = [
   },
   {
     id: 6,
-    img: "/images/companies/kobska.png",
-    alt: "company 6",
-  },
-  {
-    id: 7,
     img: "/images/companies/le-sorelle.png",
     alt: "company 7",
   },
   {
-    id: 8,
+    id: 7,
     img: "/images/companies/vekiller.jpg",
     alt: "company 8",
   },
 
   {
-    id: 9,
+    id: 8,
     img: "/images/companies/granddor.png",
     alt: "company 9",
   },
   {
-    id: 10,
+    id: 9,
     img: "/images/companies/atom.png",
     alt: "company 10",
   },
