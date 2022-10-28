@@ -650,32 +650,32 @@ export const reviews = [
   {
     id: 1,
     img: "/images/cake-school/reviews/reviews-1.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
-    author: "Jhon Doe",
+    desc: "Sizə ürək sözlərim çoxdu. Sizi nə qədər çox istədiyimi bilirsiz. Sizin Kursunuz sayəsində öz nişan tortumu hazırlamışam",
+    author: "Səbinə",
   },
   {
     id: 2,
     img: "/images/cake-school/reviews/reviews-2.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
-    author: "Jhon Doe",
+    desc: "Emilya xanım, sizə necə təşəkkür etsəm bilmirəm. Əngəllı övladıma görə hardasa işləmək imkanım olmurdu. Verdiyiniz dərslər sayəsində evdə şirniyyatlar, tortlar bişirib satıram. Yaxşı ki, sizi tanıdım, yaxşı ki, yolum sizin akademiyadan keçdi. Sizi çox sevirəm.",
+    author: "Aynur",
   },
   {
     id: 3,
     img: "/images/cake-school/reviews/reviews-3.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
-    author: "Jhon Doe",
+    desc: 'Yaxşı ki, sizi və akademiyanı tanıdım. Sizi az müddətdə tanısam da çox sevdim. Tələbələrinizlə gözəl davranışınız, hər şeyi dəqiqliklə izah etməyiniz, "özünə inan, bacaracaqsan" sözünüz qulağıma sırğa oldu. Özümə inanım daha da artdı. Sizin kurs həyatıma çox şey qatdı. Sizi sevən tələbəniz.',
+    author: "Ülviyyə",
   },
   {
     id: 4,
     img: "/images/cake-school/reviews/reviews-4.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
-    author: "Jhon Doe",
+    desc: "10 günlük  master klass da çox şey öyrəndik həqiqətən. Əsas hər bir tələbənizə samimiyyətlə yanaşmanız çox xoşuma gəldi. Siz tələbələrinizə təkcə tort hazırlamağı deyil, bir qadın kimi güclü olmağı, əzmlə çalıçmağı öyrətdiz. Bir xanım olaraq sizinlə qürur duydum. Hər çey üçün sağolun. Təkrardan başqa master klasslarda görüşmək diləyi ilə.",
+    author: "Günay",
   },
   {
     id: 5,
     img: "/images/cake-school/reviews/reviews-5.png",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores alias placeat ea molestiae, similique inventore in recusandae doloremque distinctio? Ea incidunt nihil illo ut soluta iste neque repellendus natus quaerat?",
-    author: "Jhon Doe",
+    desc: "Aylardır sizi izləyirəm. Sahəm tamamılə başqadır. Amma bir həvəskar kimi  hardasa nədənsə yararlanıb bişirirdim. Gördüyünüz işləri o qədər bəyəndim ki, aylar sonra sizi izləyə izləyə bir də özümü bu işin içində tapdım. Sizdən ilhamlanaraq sahəmi, işimi dəyişdim deyərdim. Aylardır ekran arxasında izlədiyim insanı Allah yaxından tanımağı, tələbəsi olmağı, Sertifikatı almağı nəsib etdi. Bu gözəl sənətin incəliklərini sizdən öyrəndim. Yaxşı ki tanımı.am sizi. Sevgi ilə tələbəniz",
+    author: "Rena",
   },
 ];
 export const cakeschoolGallery = [
